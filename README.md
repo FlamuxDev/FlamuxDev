@@ -38,7 +38,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
 </div>
 
 <!-- ════════════════════════ CONFIDENTIAL DOSSIER ════════════════════════ -->
@@ -89,7 +89,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
 </div>
 
 <!-- ════════════════════════════ ARSENAL ════════════════════════════ -->
@@ -176,7 +176,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
 </div>
 
 <!-- ════════════════════════ FLAGSHIP OPERATIONS ════════════════════════ -->
@@ -244,7 +244,7 @@ B2B **WhatsApp appointment-booking SaaS** for Gulf businesses (clinics, salons, 
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
 </div>
 
 <!-- ════════════════════════════ THE CODE ════════════════════════════ -->
@@ -288,7 +288,7 @@ class HiddenGenius:
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
 </div>
 
 <!-- ════════════════════════════ BATTLE RECORD ════════════════════════════ -->
@@ -316,7 +316,7 @@ class HiddenGenius:
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
 </div>
 
 <!-- ════════════════════════ CURRENT OPERATIONS ════════════════════════ -->
@@ -349,7 +349,7 @@ class HiddenGenius:
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
 </div>
 
 <!-- ════════════════════════ WORDS FROM THE MASTERMINDS ════════════════════════ -->
@@ -386,7 +386,7 @@ class HiddenGenius:
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
 </div>
 
 <!-- ════════════════════════════ SNAKE ════════════════════════════ -->
@@ -402,7 +402,7 @@ class HiddenGenius:
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
 </div>
 
 <!-- ════════════════════════════ CONTACT ════════════════════════════ -->
