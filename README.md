@@ -1,62 +1,40 @@
-<!-- ════════════════════════════════════════════════════════════════════ -->
-<!--   ✦  ABDULRAHMAN FARAJ ・ HIDDEN GENIUS PROFILE  ✦                    -->
-<!--   GitHub: FlamuxDev — drop this in the FlamuxDev/FlamuxDev repo       -->
-<!-- ════════════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════════════════ -->
+<!--   ✦  ABDULRAHMAN FARAJ ・ FlamuxDev                                    -->
+<!--   Every banner, divider, terminal, radar & wave below is a hand-built  -->
+<!--   animated SVG in /assets — no capsule-render, no rented templates.    -->
+<!-- ══════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=300&section=header&text=ABDULRAHMAN%20FARAJ&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20%26%20AI%20Engineer%20%C2%B7%20Building%20in%20the%20shadows&descAlignY=58&descSize=18" />
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3200&pause=1000&color=B794F6&center=true&vCenter=true&multiline=false&width=820&height=60&lines=Full-Stack+%26+AI+Engineer+%E2%80%94+Arabic-first;I+build+systems+that+outlive+the+noise;Production+SaaS+%C2%B7+shipped+solo+%C2%B7+from+Amman" />
+<img src="assets/hero.svg" width="100%" alt="Abdulrahman Faraj — Full-Stack & AI Agent Engineer" />
 
 <br/>
 
-<a href="https://github.com/FlamuxDev"><img src="https://img.shields.io/badge/STATUS-OPERATING_IN_SHADOWS-8B5CF6?style=for-the-badge&labelColor=0f0c29" /></a>
-<img src="https://img.shields.io/badge/SHIPPED-3_LIVE_PRODUCTS-EC4899?style=for-the-badge&labelColor=0f0c29" />
-<img src="https://img.shields.io/badge/MODE-MASTERMIND-6366F1?style=for-the-badge&labelColor=0f0c29" />
+<img src="assets/stats.svg" width="100%" alt="3 live products · 227+ endpoints · 976 pytest files · 13 channels · 185+ agent skills" />
 
 </div>
 
-<br/>
+> [!IMPORTANT]
+> **Not a portfolio of demos.** Three multi-tenant AI products in production — architected, built, shipped and operated **solo**, from Amman for the Arabic-speaking market.[^1]
 
-<!-- ════════════════════ THE NUMBERS — PROOF BAND ════════════════════ -->
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="20%"><h2>3</h2><sub>LIVE PRODUCTS<br/>in production</sub></td>
-<td align="center" width="20%"><h2>227+</h2><sub>REST ENDPOINTS<br/>single platform</sub></td>
-<td align="center" width="20%"><h2>976</h2><sub>FILE PYTEST<br/>hermetic suite</sub></td>
-<td align="center" width="20%"><h2>13</h2><sub>CHANNELS<br/>omnichannel AI</sub></td>
-<td align="center" width="20%"><h2>185+</h2><sub>AGENT SKILLS<br/>self-improving</sub></td>
-</tr>
-</table>
-
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
-</div>
-
-<!-- ════════════════════════ CONFIDENTIAL DOSSIER ════════════════════════ -->
+<!-- ═══════════════════════════ DOSSIER ═══════════════════════════ -->
 
 <table align="center" width="100%">
 <tr>
-<td width="56%" valign="top">
+<td width="52%" valign="top">
 
-### ` 🗂️ ` **CONFIDENTIAL DOSSIER**
+### `🗂️` &nbsp;**CONFIDENTIAL DOSSIER**
 
 ```
 ┌──────────────────────────────────────────────┐
-│  SUBJECT     :  Abdulrahman Faraj  (Abd)      │
-│  ORIGIN      :  Amman, Jordan 🇯🇴             │
-│  ROLE        :  Full-Stack & AI Engineer      │
-│  SPECIALTY   :  AI Agents · Multi-Tenant SaaS │
-│  SHIPPED     :  3 live AI products, solo      │
-│  THREAT LVL  :  ██████████  LEGENDARY         │
+│  SUBJECT     :  Abdulrahman Faraj  (Abd)     │
+│  ORIGIN      :  Amman, Jordan 🇯🇴            │
+│  ROLE        :  Full-Stack & AI Engineer     │
+│  SPECIALTY   :  AI Agents · Multi-Tenant SaaS│
+│  SHIPPED     :  3 live AI products, solo     │
+│  THREAT LVL  :  ██████████  LEGENDARY        │
 │  STATUS      :  [ ACTIVE ・ BUILDING ]        │
 └──────────────────────────────────────────────┘
 ```
@@ -65,95 +43,61 @@
 > *True strength lies in knowing when not to act."*
 
 **Operating principles**
-- 🧠 Reads the whole system before touching a line
-- ♟️ Treats every product like a chess match — three moves ahead
-- 🌙 Ships production-grade systems in the silence of night
-- 🎯 Owns the full stack: DB → API → AI pipeline → frontend → DevOps
+
+- 🧠 &nbsp;Reads the whole system before touching a line
+- ♟️ &nbsp;Treats every product like a chess match — three moves ahead
+- 🌙 &nbsp;Ships production-grade systems in the silence of night
+- 🎯 &nbsp;Owns the full stack: `DB → API → AI pipeline → frontend → DevOps`
 
 </td>
-<td width="44%" valign="top" align="center">
+<td width="48%" valign="top" align="center">
 
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=2200&pause=400&color=B794F6&center=true&vCenter=true&width=380&height=160&lines=%3E+booting+core+systems...;%3E+loading+agent+orchestrator...;%3E+compiling+the+monorepo...;%3E+bypassing+limitations...;%3E+deploying+genius...;%3E+access+granted." />
-
-<br/>
-
-<sub>**STACK** · TypeScript · Python · Flutter · Gemini · RAG · MCP</sub><br/>
-<sub>**MARKET** · Arabic-first SaaS — Jordan & the Gulf</sub>
+<img src="assets/terminal.svg" width="100%" alt="Boot sequence" />
 
 </td>
 </tr>
 </table>
 
-<br/>
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
-</div>
-
-<!-- ════════════════════════════ ARSENAL ════════════════════════════ -->
+<!-- ═══════════════════════════ ARSENAL ═══════════════════════════ -->
 
 <div align="center">
 
-## ` 🗡️ ` **ARSENAL ・ 武器庫**
+## `🗡️` &nbsp;**ARSENAL ・ 武器庫**
 
 <i>Every tool mastered quietly. Nothing left to chance.</i>
 
 </div>
 
-<br/>
-
 <table align="center" width="100%">
 <tr>
-<td align="center" width="25%">
+<td width="46%" valign="middle" align="center">
+
+<img src="assets/radar.svg" width="100%" alt="Skill topology radar" />
+
+</td>
+<td width="54%" valign="middle">
 
 **`⚡ LANGUAGES`**
 
-<img src="https://skillicons.dev/icons?i=ts&theme=dark" width="42" /><br/><sub>TypeScript</sub><br/>
-<img src="https://skillicons.dev/icons?i=python&theme=dark" width="42" /><br/><sub>Python</sub><br/>
-<img src="https://skillicons.dev/icons?i=dart&theme=dark" width="42" /><br/><sub>Dart</sub><br/>
-<img src="https://skillicons.dev/icons?i=go&theme=dark" width="42" /><br/><sub>Go</sub><br/>
-<img src="https://skillicons.dev/icons?i=cs&theme=dark" width="42" /><br/><sub>C#</sub>
-
-</td>
-<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=ts,python,dart,go,cs&theme=dark" height="44" />
 
 **`🎨 FRONTEND`**
 
-<img src="https://skillicons.dev/icons?i=react&theme=dark" width="42" /><br/><sub>React 19</sub><br/>
-<img src="https://skillicons.dev/icons?i=nextjs&theme=dark" width="42" /><br/><sub>Next.js 16</sub><br/>
-<img src="https://skillicons.dev/icons?i=flutter&theme=dark" width="42" /><br/><sub>Flutter</sub><br/>
-<img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="42" /><br/><sub>Tailwind v4</sub><br/>
-<img src="https://skillicons.dev/icons?i=figma&theme=dark" width="42" /><br/><sub>Figma</sub>
-
-</td>
-<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=react,nextjs,flutter,tailwind,figma&theme=dark" height="44" />
 
 **`⚙️ BACKEND`**
 
-<img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="42" /><br/><sub>Node ≥20</sub><br/>
-<img src="https://skillicons.dev/icons?i=fastapi&theme=dark" width="42" /><br/><sub>FastAPI</sub><br/>
-<img src="https://skillicons.dev/icons?i=express&theme=dark" width="42" /><br/><sub>Express v5</sub><br/>
-<img src="https://skillicons.dev/icons?i=redis&theme=dark" width="42" /><br/><sub>Redis</sub><br/>
-<img src="https://skillicons.dev/icons?i=docker&theme=dark" width="42" /><br/><sub>Docker</sub>
+<img src="https://skillicons.dev/icons?i=nodejs,fastapi,express,redis,docker&theme=dark" height="44" />
 
-</td>
-<td align="center" width="25%">
+**`☁️ CLOUD & DATA`**
 
-**`☁️ CLOUD & DB`**
-
-<img src="https://skillicons.dev/icons?i=aws&theme=dark" width="42" /><br/><sub>AWS EC2</sub><br/>
-<img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="42" /><br/><sub>Postgres</sub><br/>
-<img src="https://skillicons.dev/icons?i=supabase&theme=dark" width="42" /><br/><sub>Supabase</sub><br/>
-<img src="https://skillicons.dev/icons?i=firebase&theme=dark" width="42" /><br/><sub>Firebase</sub><br/>
-<img src="https://skillicons.dev/icons?i=vercel&theme=dark" width="42" /><br/><sub>Vercel</sub>
+<img src="https://skillicons.dev/icons?i=aws,postgres,supabase,firebase,vercel&theme=dark" height="44" />
 
 </td>
 </tr>
 </table>
-
-<br/>
 
 <div align="center">
 
@@ -173,36 +117,52 @@
 
 </div>
 
-<br/>
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
-</div>
-
-<!-- ════════════════════════ FLAGSHIP OPERATIONS ════════════════════════ -->
+<!-- ═══════════════════════ FLAGSHIP OPERATIONS ═══════════════════════ -->
 
 <div align="center">
 
-## ` ⚔️ ` **FLAGSHIP OPERATIONS ・ 主力作戦**
+## `⚔️` &nbsp;**FLAGSHIP OPERATIONS ・ 主力作戦**
 
 <i>Not prototypes. Live, multi-tenant, production systems — built and shipped solo.</i>
+<br/><i>Open a file to read the internals. 👇</i>
 
 </div>
 
+### `🟣` **Botify Arabia** &nbsp;<img src="https://img.shields.io/badge/LIVE-PRODUCTION-EC4899?style=flat-square&labelColor=0f0c29" />&nbsp; `shamsieh.ai`
+
+Enterprise-grade **multi-tenant AI chat & voice SaaS** — businesses build, configure and deploy AI agents through an embeddable widget or omnichannel integrations.
+
+<details>
+<summary><b>&nbsp;⟩ &nbsp;Open the architecture</b></summary>
+
 <br/>
 
-### `🟣` **Botify Arabia** &nbsp; <img src="https://img.shields.io/badge/LIVE-PRODUCTION-EC4899?style=flat-square&labelColor=0f0c29" /> &nbsp; `shamsieh.ai`
-
-Enterprise-grade **multi-tenant AI chat & voice SaaS** — businesses build, configure, and deploy AI agents through an embeddable widget or omnichannel integrations.
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#1B1338','primaryTextColor':'#E9D5FF','primaryBorderColor':'#8B5CF6','lineColor':'#EC4899','secondaryColor':'#2A1B4D','tertiaryColor':'#0F0C29','fontFamily':'monospace'}}}%%
+flowchart LR
+    U([Customer]) --> CH[13 Channels<br/>WhatsApp · IG · Widget · Voice]
+    CH --> GATE{Quota + Safety<br/>gate}
+    GATE -- blocked --> DROP[Reject + audit]
+    GATE -- pass --> RAG[(RAG<br/>pgvector 1536-dim)]
+    RAG --> LOOP[Gemini tool-loop]
+    LOOP <--> MCP[/MCP · Odoo · custom tools/]
+    LOOP --> STREAM((Socket.IO<br/>token stream))
+    STREAM --> U
+    LOOP --> Q[[BullMQ · 4 queues<br/>11 workers]]
+    Q --> CAMP[Campaign engine<br/>anti-ban · Journey DAG · A/B]
+```
 
 ```
 ◆ Turborepo monorepo — 5 packages (API · dashboard · admin · widget · shared)
-◆ Core pipeline — quota → safety → RAG (pgvector 1536-dim) → MCP/Odoo tool-loop → Socket.IO streaming
 ◆ Omnichannel — 13 self-registering providers · Meta Embedded Signup · per-org AES-GCM tokens
 ◆ Campaign engine — anti-ban gate · Journey DAG automation · A/B testing · per-org DKIM
 ◆ Enterprise monitoring — Dynatrace triage + Splunk SOC command center (SPL queries)
-◆ Scale — ~227 REST endpoints · ~29 Prisma models · 11 workers · 4 BullMQ queues · EC2 + Nginx + PM2
+◆ Scale — ~227 REST endpoints · ~29 Prisma models · 11 workers · EC2 + Nginx + PM2
 ```
+
+</details>
 
 <sub>`TypeScript` `Express` `Prisma` `PostgreSQL + pgvector` `Redis` `BullMQ` `React` `Socket.IO` `LangChain` `Gemini` `ElevenLabs`</sub>
 
@@ -210,48 +170,117 @@ Enterprise-grade **multi-tenant AI chat & voice SaaS** — businesses build, con
 
 ### `🟣` **Mawid AI** &nbsp;<sub>(موعد)</sub>&nbsp; <img src="https://img.shields.io/badge/LIVE-PRODUCTION-EC4899?style=flat-square&labelColor=0f0c29" />
 
-B2B **WhatsApp appointment-booking SaaS** for Gulf businesses (clinics, salons, gyms) — tenants connect their number and an AI agent handles inquiries, booking, rescheduling & cancellations in Arabic & English.
+B2B **WhatsApp appointment-booking SaaS** for Gulf businesses (clinics, salons, gyms) — tenants connect their number and an AI agent handles inquiries, booking, rescheduling and cancellations in Arabic and English.
+
+<details>
+<summary><b>&nbsp;⟩ &nbsp;Open the architecture</b></summary>
+
+<br/>
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#1B1338','primaryTextColor':'#E9D5FF','primaryBorderColor':'#8B5CF6','lineColor':'#22D3EE','secondaryColor':'#2A1B4D','tertiaryColor':'#0F0C29','fontFamily':'monospace'}}}%%
+flowchart TD
+    WA[Meta webhook] --> HMAC{HMAC verify}
+    HMAC --> DEB[Debounce +<br/>idempotency key]
+    DEB --> AG[Gemini agent<br/>8 tools · integrity guard]
+    AG --> SAN[Tool-output sanitizer]
+    SAN --> LOCK[[pg_advisory_xact_lock<br/>slot locking]]
+    LOCK --> BOOK[(Booking · RRULE<br/>recurrence engine)]
+    BOOK --> PAY[Stripe deposits]
+    BOOK --> CRON[Reminder cron]
+    CRON --> WA
+```
 
 ```
 ◆ Strict layered architecture — kernel → domain → infrastructure → application
-◆ Gemini tool-loop agent — 8 tools · integrity guard · tool-output sanitizer
-◆ WhatsApp pipeline — Meta webhook → HMAC verify → debounce/idempotency → AI reply
-◆ Concurrency — pg_advisory_xact_lock slot locking for booking race conditions
-◆ RRULE recurrence engine · dynamic pricing · reminder cron · Stripe deposits
-◆ Onboarding — 7-step wizard · 22 industry presets · full dark mode · Docker + Caddy on EC2
+◆ Concurrency — advisory-lock slot reservation kills double-booking races
+◆ Onboarding — 7-step wizard · 22 industry presets · full dark mode
+◆ Ops — Docker + Caddy on EC2 · dynamic pricing · bilingual AR/EN agent
 ```
+
+</details>
 
 <sub>`Next.js 16` `React 19` `Drizzle ORM` `PostgreSQL + pgvector` `Vercel AI SDK v6` `Tailwind v4` `shadcn/ui` `WhatsApp Cloud API` `Stripe`</sub>
 
 <br/>
 
-### `🟣` **Safa Agent** &nbsp;<sub>(mythos)</sub>&nbsp; <img src="https://img.shields.io/badge/LIVE-safaict.com-8B5CF6?style=flat-square&labelColor=0f0c29" /> &nbsp;<sub>— the largest in the portfolio</sub>
+### `🟣` **Safa Agent** &nbsp;<sub>(mythos)</sub>&nbsp; <img src="https://img.shields.io/badge/LIVE-safaict.com-8B5CF6?style=flat-square&labelColor=0f0c29" />&nbsp;<sub>— largest in the portfolio</sub>
 
 **Self-improving AI agent platform** — a productized fork of Nous Research's Hermes Agent, extended with a full cloud SaaS layer.
 
-```
-◆ Learning loop — memory/skill nudges every 10 turns · background curator · FTS5 recall
-◆ Skills — 114 bundled + 71 optional · autonomous skill creation & improvement lifecycle
-◆ Surfaces — Rich/prompt_toolkit CLI · Ink/React TUI · local web dashboard (PTY/xterm.js)
-◆ Reach — ~24 platform adapters (Telegram, Discord, Slack, WhatsApp, Signal, Matrix…)
-◆ Execution — 7 backends (local, Docker, SSH, Singularity, Modal, Daytona, Vercel Sandbox)
-◆ Safa Cloud — OpenAI-compatible inference proxy · credit/quota/kill-switch · Stripe · device-link auth
-◆ Hardened — PathGuard + Docker egress allowlist · Go WebView2 installer · 976-file hermetic pytest suite
-```
-
-<sub>`Python ≥3.11` `FastAPI` `React` `TypeScript` `SQLite` `PostgreSQL (Neon/Supabase)` `Docker` `Go`</sub>
+<details>
+<summary><b>&nbsp;⟩ &nbsp;Open the architecture</b></summary>
 
 <br/>
 
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#1B1338','primaryTextColor':'#E9D5FF','primaryBorderColor':'#EC4899','lineColor':'#8B5CF6','secondaryColor':'#2A1B4D','tertiaryColor':'#0F0C29','fontFamily':'monospace'}}}%%
+flowchart LR
+    subgraph SURF[Surfaces]
+        CLI[Rich CLI] --- TUI[Ink/React TUI] --- WEB[Web dashboard<br/>PTY · xterm.js]
+    end
+    SURF --> CORE{{Agent core}}
+    CORE --> SK[185+ skills<br/>114 bundled · 71 optional]
+    SK -.->|autonomous<br/>create & improve| SK
+    CORE --> MEM[(Memory · FTS5 recall<br/>nudge every 10 turns)]
+    MEM --> CUR[Background curator]
+    CUR --> MEM
+    CORE --> EXEC[7 execution backends<br/>local · Docker · SSH · Modal · Daytona]
+    CORE --> ADPT[~24 platform adapters<br/>Telegram · Discord · Slack · Signal]
+    CORE --> CLOUD[Safa Cloud<br/>OpenAI-compatible proxy · credits · kill-switch]
+```
+
+```
+◆ Learning loop — memory/skill nudges every 10 turns · background curator · FTS5 recall
+◆ Hardened — PathGuard + Docker egress allowlist · Go WebView2 installer
+◆ Quality gate — 976-file hermetic pytest suite
+◆ Billing — Stripe · quota/kill-switch · device-link auth
+```
+
+</details>
+
+<sub>`Python ≥3.11` `FastAPI` `React` `TypeScript` `SQLite` `PostgreSQL (Neon/Supabase)` `Docker` `Go`</sub>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+<!-- ═══════════════════════════ TRAJECTORY ═══════════════════════════ -->
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
+
+## `🧭` &nbsp;**TRAJECTORY ・ 軌跡**
+
 </div>
 
-<!-- ════════════════════════════ THE CODE ════════════════════════════ -->
+```mermaid
+%%{init: {'theme':'base','gitGraph':{'showBranches':true,'mainBranchName':'shadow'},'themeVariables':{'git0':'#8B5CF6','git1':'#EC4899','git2':'#22D3EE','git3':'#F59E0B','gitBranchLabel0':'#E9D5FF','gitBranchLabel1':'#E9D5FF','gitBranchLabel2':'#E9D5FF','gitBranchLabel3':'#0F0C29','commitLabelColor':'#E9D5FF','commitLabelBackground':'#1B1338','fontFamily':'monospace'}}}%%
+gitGraph
+    commit id: "learn in silence"
+    branch full-stack
+    commit id: "APIs · Postgres · queues"
+    commit id: "React · Flutter · Next"
+    checkout shadow
+    merge full-stack
+    branch ai-agents
+    commit id: "RAG + tool-loops"
+    commit id: "Botify Arabia LIVE"
+    commit id: "Mawid AI LIVE"
+    checkout shadow
+    merge ai-agents
+    branch platform
+    commit id: "Safa Agent LIVE"
+    commit id: "self-improving loop"
+    checkout shadow
+    merge platform
+    commit id: "next: Gulf scale"
+```
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+<!-- ═══════════════════════════ THE CODE ═══════════════════════════ -->
 
 <div align="center">
 
-## ` 🎭 ` **THE CODE OF THE SHADOW GENIUS**
+## `🎭` &nbsp;**THE CODE OF THE SHADOW GENIUS**
 
 </div>
 
@@ -285,24 +314,28 @@ class HiddenGenius:
         return "A developer you'll only notice once it's too late."
 ```
 
-<br/>
-
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
+
+<sub>the same idea, with the noise factored out:</sub>
+
 </div>
 
-<!-- ════════════════════════════ BATTLE RECORD ════════════════════════════ -->
+$$
+\textbf{Impact} \;=\; \sum_{i=1}^{n} \Big( \text{Depth}_i \times \text{Ownership}_i \Big) \;-\; \lambda \cdot \text{Noise}, \qquad \lambda \to \infty
+$$
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+<!-- ═══════════════════════════ BATTLE RECORD ═══════════════════════════ -->
 
 <div align="center">
 
-## ` 📊 ` **BATTLE RECORD ・ 戦績**
+## `📊` &nbsp;**BATTLE RECORD ・ 戦績**
 
 <br/>
 
 <img src="https://github-readme-stats.vercel.app/api?username=FlamuxDev&show_icons=true&count_private=true&hide_border=true&title_color=B794F6&icon_color=EC4899&text_color=ffffff&bg_color=0f0c29" height="170" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=FlamuxDev&hide_border=true&background=0f0c29&stroke=B794F6&ring=B794F6&fire=EC4899&currStreakLabel=B794F6&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=B794F6" height="170" />
-
-<br/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FlamuxDev&layout=compact&hide_border=true&title_color=B794F6&text_color=ffffff&bg_color=0f0c29&langs_count=10" height="165" />
 <img src="https://github-profile-trophy.vercel.app/?username=FlamuxDev&theme=nord&no-frame=true&no-bg=true&column=4&row=2&margin-w=8&margin-h=8" height="165" />
@@ -313,52 +346,41 @@ class HiddenGenius:
 
 </div>
 
-<br/>
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
-</div>
-
-<!-- ════════════════════════ CURRENT OPERATIONS ════════════════════════ -->
+<!-- ═══════════════════════ CURRENT OPERATIONS ═══════════════════════ -->
 
 <div align="center">
 
-## ` 🎯 ` **CURRENT OPERATIONS ・ 現在の作戦**
+## `🎯` &nbsp;**CURRENT OPERATIONS ・ 現在の作戦**
 
 </div>
+
+| ` ` | Active mission | Progress |
+|:--|:--|:--|
+| `🔴` | Scaling **Botify Arabia** for the Saudi / Gulf B2B market | `███████████████░░░░░` `74%` |
+| `🔴` | Self-improving multi-agent systems — **Safa / mythos** | `██████████████████░░` `88%` |
+| `🟣` | Per-user sandboxed compute — Firecracker · gVisor · E2B | `████████░░░░░░░░░░░░` `41%` |
+| `🟣` | Edge inference & on-device LLMs | `█████░░░░░░░░░░░░░░░` `26%` |
+| `🟢` | The art of saying nothing while knowing everything | `████████████████████` `∞` |
 
 ```yaml
-🔴 active_missions:
-  - Scaling Botify Arabia for the Saudi / Gulf B2B market
-  - Architecting self-improving multi-agent systems (Safa / mythos)
-  - Arabic-first AI products under Shamsieh Technology Services
-  - Autonomous overnight development workflows with Claude Code
-
-🟣 studying_in_the_shadows:
-  - Production agent engineering at scale (orchestration, sandboxing, eval)
-  - Per-user sandboxed compute (Firecracker / gVisor / E2B)
-  - Edge inference & on-device LLMs
-  - The art of saying nothing while knowing everything
-
-🟢 philosophy:
-  quote: "I don't compete with others. I compete with who I was yesterday."
+philosophy:
+  quote:    "I don't compete with others. I compete with who I was yesterday."
   standard: "اسطوري — or it doesn't ship"
-  goal: "Build things that outlive the noise"
+  goal:     "Build things that outlive the noise"
 ```
 
-<br/>
+> [!TIP]
+> Best way to reach me: a concrete problem, in one paragraph. <kbd>E</kbd> for email below — response probability: calculated.
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+<!-- ═══════════════════ WORDS FROM THE MASTERMINDS ═══════════════════ -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
-</div>
 
-<!-- ════════════════════════ WORDS FROM THE MASTERMINDS ════════════════════════ -->
-
-<div align="center">
-
-## ` 🌙 ` **WORDS FROM THE MASTERMINDS**
-
-<br/>
+## `🌙` &nbsp;**WORDS FROM THE MASTERMINDS**
 
 <table>
 <tr>
@@ -383,33 +405,25 @@ class HiddenGenius:
 
 </div>
 
-<br/>
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
-</div>
-
-<!-- ════════════════════════════ SNAKE ════════════════════════════ -->
+<!-- ═══════════════════════════ SNAKE ═══════════════════════════ -->
 
 <div align="center">
 
-## ` 🐍 ` **CONTRIBUTION HUNT**
+## `🐍` &nbsp;**CONTRIBUTION HUNT**
 
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake" />
 
 </div>
 
-<br/>
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:8B5CF6,100:0f0c29&height=3" width="100%" />
-</div>
-
-<!-- ════════════════════════════ CONTACT ════════════════════════════ -->
+<!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
 
 <div align="center">
 
-## ` 📡 ` **ESTABLISH CONTACT ・ 連絡**
+## `📡` &nbsp;**ESTABLISH CONTACT ・ 連絡**
 
 <i>Message received. Response probability: calculated.</i>
 
@@ -429,8 +443,10 @@ class HiddenGenius:
 
 ### *"The true elite don't need to prove anything. Their work does it for them."*
 
-</div>
-
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=180&section=footer&text=%D8%B5%D9%86%D8%A7%D8%B9%D8%A9%20%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9&fontSize=44&fontColor=ffffff&animation=twinkling&fontAlignY=70" />
+<img src="assets/footer.svg" width="100%" alt="صناعة الأنظمة — building systems that outlive the noise" />
+
+</div>
+
+[^1]: Every animated banner, divider, boot terminal, skill radar and wave footer on this page is a hand-authored SVG living in [`/assets`](assets) — pure SMIL, no scripts, no third-party render service. Steal the technique, not the file.

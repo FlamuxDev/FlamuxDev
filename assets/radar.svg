@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="430" viewBox="0 0 520 430" role="img" aria-label="Skill topology radar">
+  <defs>
+    <radialGradient id="rbg" cx="50%" cy="52%">
+      <stop offset="0%" stop-color="#1A1140"/>
+      <stop offset="100%" stop-color="#08060F"/>
+    </radialGradient>
+    <linearGradient id="poly" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".55"/>
+      <stop offset="50%" stop-color="#EC4899" stop-opacity=".40"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="rglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .m { font-family: ui-monospace, "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace; }
+      .ax { font-size: 10.5px; font-weight: 700; letter-spacing: 2px; fill: #C4B5FD; }
+      .vl { font-size: 9px; font-weight: 600; letter-spacing: 1px; fill: #7C74A8; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="518" height="428" rx="18" fill="url(#rbg)" stroke="#8B5CF6" stroke-opacity=".28"/>
+
+  <text class="m" x="26" y="30" font-size="10" letter-spacing="3" fill="#6D6494">SKILL TOPOLOGY</text>
+  <text class="m" x="474" y="30" text-anchor="end" font-size="10" letter-spacing="3" fill="#4C4470">SCAN ACTIVE</text>
+
+  <!-- rings -->
+  <g fill="none" stroke="#8B5CF6" stroke-opacity=".22">
+    <polygon points="260,75 389.9,150 389.9,300 260,375 130.1,300 130.1,150"/>
+    <polygon points="260,112.5 357.4,168.75 357.4,281.25 260,337.5 162.6,281.25 162.6,168.75"/>
+    <polygon points="260,150 324.95,187.5 324.95,262.5 260,300 195.05,262.5 195.05,187.5"/>
+    <polygon points="260,187.5 292.5,206.25 292.5,243.75 260,262.5 227.5,243.75 227.5,206.25"/>
+  </g>
+
+  <!-- axes -->
+  <g stroke="#8B5CF6" stroke-opacity=".28" stroke-width="1">
+    <line x1="260" y1="225" x2="260" y2="75"/>
+    <line x1="260" y1="225" x2="389.9" y2="150"/>
+    <line x1="260" y1="225" x2="389.9" y2="300"/>
+    <line x1="260" y1="225" x2="260" y2="375"/>
+    <line x1="260" y1="225" x2="130.1" y2="300"/>
+    <line x1="260" y1="225" x2="130.1" y2="150"/>
+  </g>
+
+  <!-- rotating sweep -->
+  <g transform="translate(260,225)">
+    <path d="M0 0 L150 0 A150 150 0 0 0 129.9 -75 Z" fill="url(#sweep)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- data polygon -->
+  <polygon fill="url(#poly)" stroke="#DDD6FE" stroke-width="1.6" stroke-opacity=".9"
+    points="260,225 260,225 260,225 260,225 260,225 260,225">
+    <animate attributeName="points" dur="1.5s" fill="freeze"
+      values="260,225 260,225 260,225 260,225 260,225 260,225;
+              260,79.5 383.4,153.8 374.3,291 260,348 143.1,292.5 149.6,161.3"/>
+  </polygon>
+
+  <!-- vertices -->
+  <g fill="#FFFFFF" filter="url(#rglow)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur=".5s" begin="1.3s" fill="freeze"/>
+    <circle cx="260" cy="79.5" r="3.4"/>
+    <circle cx="383.4" cy="153.8" r="3.4"/>
+    <circle cx="374.3" cy="291" r="3.4"/>
+    <circle cx="260" cy="348" r="3.4"/>
+    <circle cx="143.1" cy="292.5" r="3.4"/>
+    <circle cx="149.6" cy="161.3" r="3.4"/>
+  </g>
+
+  <!-- axis labels -->
+  <g class="m">
+    <text class="ax" x="260" y="58" text-anchor="middle">AI · AGENTS</text>
+    <text class="vl" x="260" y="418" text-anchor="middle" opacity="0"><animate attributeName="opacity" values="0;1" dur=".6s" begin="1.5s" fill="freeze"/>polygon = depth of ownership, not years on a résumé</text>
+
+    <text class="ax" x="400" y="140" text-anchor="start">BACKEND</text>
+    <text class="ax" x="400" y="310" text-anchor="start">FRONTEND</text>
+    <text class="ax" x="260" y="396" text-anchor="middle">DEVOPS</text>
+    <text class="ax" x="120" y="310" text-anchor="end">DATA · RAG</text>
+    <text class="ax" x="120" y="140" text-anchor="end">PRODUCT</text>
+  </g>
+
+  <circle cx="488" cy="26" r="3.2" fill="#22D3EE">
+    <animate attributeName="opacity" values="1;.15;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+</svg>

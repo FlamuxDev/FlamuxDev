@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="Building systems that outlive the noise">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#08060F"/>
+      <stop offset="100%" stop-color="#150E2E"/>
+    </linearGradient>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".30"/>
+      <stop offset="50%" stop-color="#EC4899" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity=".30"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity=".20"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#EC4899" stop-opacity=".20"/>
+    </linearGradient>
+    <linearGradient id="w3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#302B63" stop-opacity=".75"/>
+      <stop offset="100%" stop-color="#4C1D95" stop-opacity=".75"/>
+    </linearGradient>
+    <linearGradient id="ftext" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C4B5FD"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F9A8D4"/>
+    </linearGradient>
+    <filter id="fglow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="fclip"><rect width="1200" height="230" rx="20"/></clipPath>
+    <style>
+      .m { font-family: ui-monospace, "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace; }
+      .ar { font-family: "Noto Naskh Arabic", "Segoe UI", "Tahoma", system-ui, sans-serif; font-size: 42px; font-weight: 700; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#fclip)">
+    <rect width="1200" height="230" fill="url(#fbg)"/>
+
+    <g fill="#E9D5FF">
+      <circle cx="140" cy="46" r="1.3"><animate attributeName="opacity" values=".15;.9;.15" dur="3.3s" repeatCount="indefinite"/></circle>
+      <circle cx="1060" cy="38" r="1.5"><animate attributeName="opacity" values=".9;.2;.9" dur="4.2s" repeatCount="indefinite"/></circle>
+      <circle cx="330" cy="30" r="1"><animate attributeName="opacity" values=".2;.85;.2" dur="2.9s" repeatCount="indefinite"/></circle>
+      <circle cx="880" cy="52" r="1.2"><animate attributeName="opacity" values=".8;.1;.8" dur="3.7s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <text class="ar" x="600" y="94" text-anchor="middle" fill="url(#ftext)" filter="url(#fglow)" direction="rtl">صناعة الأنظمة</text>
+    <text class="m" x="600" y="122" text-anchor="middle" font-size="11" letter-spacing="4.5" fill="#8F86B8">BUILDING SYSTEMS THAT OUTLIVE THE NOISE</text>
+
+    <path fill="url(#w3)" fill-opacity=".55" d="M0,166 C100,132 200,200 300,166 S500,132 600,166 S800,200 900,166 S1100,132 1200,166 L1200,230 L0,230 Z">
+      <animate attributeName="d" dur="15s" repeatCount="indefinite"
+        values="M0,166 C100,132 200,200 300,166 S500,132 600,166 S800,200 900,166 S1100,132 1200,166 L1200,230 L0,230 Z;
+                M0,166 C100,200 200,132 300,166 S500,200 600,166 S800,132 900,166 S1100,200 1200,166 L1200,230 L0,230 Z;
+                M0,166 C100,132 200,200 300,166 S500,132 600,166 S800,200 900,166 S1100,132 1200,166 L1200,230 L0,230 Z"/>
+    </path>
+    <path fill="url(#w2)" d="M0,178 C120,146 240,212 360,178 S600,146 720,178 S960,212 1080,178 S1320,146 1440,178 L1440,230 L0,230 Z">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite"
+        values="M0,178 C120,146 240,212 360,178 S600,146 720,178 S960,212 1080,178 S1320,146 1440,178 L1440,230 L0,230 Z;
+                M0,178 C120,212 240,144 360,178 S600,212 720,178 S960,144 1080,178 S1320,212 1440,178 L1440,230 L0,230 Z;
+                M0,178 C120,146 240,212 360,178 S600,146 720,178 S960,212 1080,178 S1320,146 1440,178 L1440,230 L0,230 Z"/>
+    </path>
+    <path fill="url(#w1)" stroke="#C4B5FD" stroke-opacity=".35" stroke-width="1.2"
+      d="M0,192 C90,166 180,218 270,192 S450,166 540,192 S720,218 810,192 S990,166 1080,192 S1260,218 1350,192 L1350,230 L0,230 Z">
+      <animate attributeName="d" dur="7.5s" repeatCount="indefinite"
+        values="M0,192 C90,166 180,218 270,192 S450,166 540,192 S720,218 810,192 S990,166 1080,192 S1260,218 1350,192 L1350,230 L0,230 Z;
+                M0,192 C90,218 180,166 270,192 S450,218 540,192 S720,166 810,192 S990,218 1080,192 S1260,166 1350,192 L1350,230 L0,230 Z;
+                M0,192 C90,166 180,218 270,192 S450,166 540,192 S720,218 810,192 S990,166 1080,192 S1260,218 1350,192 L1350,230 L0,230 Z"/>
+    </path>
+
+    <text class="m" x="600" y="218" text-anchor="middle" font-size="9" letter-spacing="3" fill="#E9D5FF" opacity=".55">FLAMUXDEV · AMMAN → THE GULF · 2026</text>
+  </g>
+</svg>
