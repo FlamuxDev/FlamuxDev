@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="156" viewBox="0 0 1200 156" role="img" aria-label="Measured results across shipped systems">
+  <defs>
+    <linearGradient id="mBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09090A"/>
+      <stop offset="100%" stop-color="#0B0807"/>
+    </linearGradient>
+    <linearGradient id="mSep" gradientUnits="userSpaceOnUse" x1="0" y1="58" x2="0" y2="136">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#F97316" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .m { font-family: ui-monospace, "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace; }
+      .hd { font-size: 11px; font-weight: 700; letter-spacing: 4px; }
+      .sm { font-size: 8.5px; font-weight: 500; letter-spacing: 2px; }
+      .v  { font-size: 29px; font-weight: 800; letter-spacing: -0.5px; }
+      .k  { font-size: 9px; font-weight: 700; letter-spacing: 2.2px; }
+      .s  { font-size: 8px; font-weight: 500; letter-spacing: 1.2px; }
+      .d  { font-size: 8.5px; font-weight: 700; letter-spacing: .8px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="156" rx="14" fill="url(#mBg)" stroke="#1C1917"/>
+
+  <rect x="46" y="24" width="14" height="2" fill="#EA580C"/>
+  <text class="m hd" x="70" y="30" fill="#F97316">MEASURED · NOT ESTIMATED</text>
+  <text class="m sm" x="1154" y="30" text-anchor="end" fill="#57534E">SOURCE: REPO BENCHMARKS &amp; CI</text>
+  <rect x="46" y="44" width="1108" height="1" fill="#1C1917"/>
+
+  <g stroke="url(#mSep)">
+    <line x1="231" y1="58" x2="231" y2="136"/>
+    <line x1="415" y1="58" x2="415" y2="136"/>
+    <line x1="600" y1="58" x2="600" y2="136"/>
+    <line x1="784" y1="58" x2="784" y2="136"/>
+    <line x1="969" y1="58" x2="969" y2="136"/>
+  </g>
+
+  <g class="m" text-anchor="middle">
+    <g>
+      <text class="v" x="138" y="94" fill="#FAFAF9">0.861</text>
+      <text class="d" x="138" y="110" fill="#F97316">▲ from 0.770</text>
+      <text class="k" x="138" y="126" fill="#FDBA74">RECALL@10</text>
+      <text class="s" x="138" y="140" fill="#57534E">SHAM V2 · 95 GOLDEN QUERIES</text>
+    </g>
+    <g>
+      <text class="v" x="323" y="94" fill="#FAFAF9">26ms</text>
+      <text class="d" x="323" y="110" fill="#F97316">▼ from ~60ms</text>
+      <text class="k" x="323" y="126" fill="#FDBA74">WARM p50</text>
+      <text class="s" x="323" y="140" fill="#57534E">SHAM V2 · SEMANTIC CACHE</text>
+    </g>
+    <g>
+      <text class="v" x="507" y="94" fill="#FAFAF9">92</text>
+      <text class="d" x="507" y="110" fill="#78716C">OpenAPI-generated</text>
+      <text class="k" x="507" y="126" fill="#FDBA74">REST ENDPOINTS</text>
+      <text class="s" x="507" y="140" fill="#57534E">TAMM · NESTJS + PRISMA</text>
+    </g>
+    <g>
+      <text class="v" x="692" y="94" fill="#FAFAF9">68/68</text>
+      <text class="d" x="692" y="110" fill="#F97316">merge gate</text>
+      <text class="k" x="692" y="126" fill="#FDBA74">TESTS GREEN</text>
+      <text class="s" x="692" y="140" fill="#57534E">MAWID AI · 4 WORKSPACES</text>
+    </g>
+    <g>
+      <text class="v" x="876" y="94" fill="#FAFAF9">11</text>
+      <text class="d" x="876" y="110" fill="#78716C">debate + arbitration</text>
+      <text class="k" x="876" y="126" fill="#FDBA74">AGENT COUNCIL</text>
+      <text class="s" x="876" y="140" fill="#57534E">LUMA ARCHITECT ENGINE</text>
+    </g>
+    <g>
+      <text class="v" x="1061" y="94" fill="#FAFAF9">36</text>
+      <text class="d" x="1061" y="110" fill="#78716C">one-way dep graph</text>
+      <text class="k" x="1061" y="126" fill="#FDBA74">DB TABLES</text>
+      <text class="s" x="1061" y="140" fill="#57534E">MAWID AI · DRIZZLE ORM</text>
+    </g>
+  </g>
+</svg>
