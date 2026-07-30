@@ -1,452 +1,291 @@
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!--   ✦  ABDULRAHMAN FARAJ ・ FlamuxDev                                    -->
-<!--   Every banner, divider, terminal, radar & wave below is a hand-built  -->
-<!--   animated SVG in /assets — no capsule-render, no rented templates.    -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--  ABDULRAHMAN FARAJ · FlamuxDev — AI Agent Engineer                      -->
+<!--  Banner, request-path diagram, telemetry band and footer are            -->
+<!--  hand-authored animated SVGs in /assets. No template, no render service.-->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<div align="center">
-
-<img src="assets/hero.svg" width="100%" alt="Abdulrahman Faraj — Full-Stack & AI Agent Engineer" />
+<img src="assets/banner.svg" width="100%" alt="Abdulrahman Faraj — AI Agent Engineer" />
 
 <br/>
 
-<img src="assets/stats.svg" width="100%" alt="3 live products · 227+ endpoints · 976 pytest files · 13 channels · 185+ agent skills" />
+I build **AI agents that carry real transactions** — booking a clinic appointment over WhatsApp, selling a merchant's catalog in Arabic, answering from a private knowledge base with tools attached. Multi-tenant, in production, mostly shipped solo. The interesting part is never the prompt; it's everything wrapped around it: retrieval that ranks correctly, tool loops that stay bounded, guards that stop an agent from claiming work it never did, and deploys that can be undone.
 
-</div>
+<img src="assets/metrics.svg" width="100%" alt="Measured results: recall@10 0.861, 26ms warm p50, 92 REST endpoints, 68/68 tests, 11-agent council, 36 tables" />
 
-> [!IMPORTANT]
-> **Not a portfolio of demos.** Three multi-tenant AI products in production — architected, built, shipped and operated **solo**, from Amman for the Arabic-speaking market.[^1]
+<img src="assets/rule.svg" width="100%" alt="" />
 
-<img src="assets/divider.svg" width="100%" alt="" />
+## &nbsp;`01`&nbsp;&nbsp;THE REQUEST PATH
 
-<!-- ═══════════════════════════ DOSSIER ═══════════════════════════ -->
+<img src="assets/agent-loop.svg" width="100%" alt="Agent request path: ingress, guard, retrieve, reason, act, verify, stream" />
 
-<table align="center" width="100%">
-<tr>
-<td width="52%" valign="top">
+Every stage below is code I own in a running system — not a reference architecture.
 
-### `🗂️` &nbsp;**CONFIDENTIAL DOSSIER**
-
-```
-┌──────────────────────────────────────────────┐
-│  SUBJECT     :  Abdulrahman Faraj  (Abd)     │
-│  ORIGIN      :  Amman, Jordan 🇯🇴            │
-│  ROLE        :  Full-Stack & AI Engineer     │
-│  SPECIALTY   :  AI Agents · Multi-Tenant SaaS│
-│  SHIPPED     :  3 live AI products, solo     │
-│  THREAT LVL  :  ██████████  LEGENDARY        │
-│  STATUS      :  [ ACTIVE ・ BUILDING ]        │
-└──────────────────────────────────────────────┘
-```
-
-> *"People who reveal their full potential are never the ones who win.*
-> *True strength lies in knowing when not to act."*
-
-**Operating principles**
-
-- 🧠 &nbsp;Reads the whole system before touching a line
-- ♟️ &nbsp;Treats every product like a chess match — three moves ahead
-- 🌙 &nbsp;Ships production-grade systems in the silence of night
-- 🎯 &nbsp;Owns the full stack: `DB → API → AI pipeline → frontend → DevOps`
-
-</td>
-<td width="48%" valign="top" align="center">
-
-<img src="assets/terminal.svg" width="100%" alt="Boot sequence" />
-
-</td>
-</tr>
-</table>
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-<!-- ═══════════════════════════ ARSENAL ═══════════════════════════ -->
-
-<div align="center">
-
-## `🗡️` &nbsp;**ARSENAL ・ 武器庫**
-
-<i>Every tool mastered quietly. Nothing left to chance.</i>
-
-</div>
-
-<table align="center" width="100%">
-<tr>
-<td width="46%" valign="middle" align="center">
-
-<img src="assets/radar.svg" width="100%" alt="Skill topology radar" />
-
-</td>
-<td width="54%" valign="middle">
-
-**`⚡ LANGUAGES`**
-
-<img src="https://skillicons.dev/icons?i=ts,python,dart,go,cs&theme=dark" height="44" />
-
-**`🎨 FRONTEND`**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,flutter,tailwind,figma&theme=dark" height="44" />
-
-**`⚙️ BACKEND`**
-
-<img src="https://skillicons.dev/icons?i=nodejs,fastapi,express,redis,docker&theme=dark" height="44" />
-
-**`☁️ CLOUD & DATA`**
-
-<img src="https://skillicons.dev/icons?i=aws,postgres,supabase,firebase,vercel&theme=dark" height="44" />
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-**`🤖 THE REAL SPECIALTY — AI & AGENT ENGINEERING`**
-
-<img src="https://img.shields.io/badge/Multi--Agent_Orchestration-0f0c29?style=for-the-badge&logo=probot&logoColor=B794F6&labelColor=0f0c29" />
-<img src="https://img.shields.io/badge/RAG_·_pgvector_+_FTS_+_RRF-0f0c29?style=for-the-badge&logo=databricks&logoColor=B794F6&labelColor=0f0c29" />
-<img src="https://img.shields.io/badge/LLM_Tool--Loops-0f0c29?style=for-the-badge&logo=openai&logoColor=B794F6&labelColor=0f0c29" />
-<br/>
-<img src="https://img.shields.io/badge/Model_Context_Protocol-0f0c29?style=for-the-badge&logo=anthropic&logoColor=B794F6&labelColor=0f0c29" />
-<img src="https://img.shields.io/badge/Google_Gemini-0f0c29?style=for-the-badge&logo=googlegemini&logoColor=B794F6&labelColor=0f0c29" />
-<img src="https://img.shields.io/badge/LangChain_·_Vercel_AI_SDK-0f0c29?style=for-the-badge&logo=langchain&logoColor=B794F6&labelColor=0f0c29" />
-<br/>
-<img src="https://img.shields.io/badge/n8n_Automation-0f0c29?style=for-the-badge&logo=n8n&logoColor=B794F6&labelColor=0f0c29" />
-<img src="https://img.shields.io/badge/ElevenLabs_Voice_AI-0f0c29?style=for-the-badge&logo=elevenlabs&logoColor=B794F6&labelColor=0f0c29" />
-<img src="https://img.shields.io/badge/WhatsApp_Cloud_API-0f0c29?style=for-the-badge&logo=whatsapp&logoColor=B794F6&labelColor=0f0c29" />
-
-</div>
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-<!-- ═══════════════════════ FLAGSHIP OPERATIONS ═══════════════════════ -->
-
-<div align="center">
-
-## `⚔️` &nbsp;**FLAGSHIP OPERATIONS ・ 主力作戦**
-
-<i>Not prototypes. Live, multi-tenant, production systems — built and shipped solo.</i>
-<br/><i>Open a file to read the internals. 👇</i>
-
-</div>
-
-### `🟣` **Botify Arabia** &nbsp;<img src="https://img.shields.io/badge/LIVE-PRODUCTION-EC4899?style=flat-square&labelColor=0f0c29" />&nbsp; `shamsieh.ai`
-
-Enterprise-grade **multi-tenant AI chat & voice SaaS** — businesses build, configure and deploy AI agents through an embeddable widget or omnichannel integrations.
-
-<details>
-<summary><b>&nbsp;⟩ &nbsp;Open the architecture</b></summary>
-
-<br/>
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#1B1338','primaryTextColor':'#E9D5FF','primaryBorderColor':'#8B5CF6','lineColor':'#EC4899','secondaryColor':'#2A1B4D','tertiaryColor':'#0F0C29','fontFamily':'monospace'}}}%%
-flowchart LR
-    U([Customer]) --> CH[13 Channels<br/>WhatsApp · IG · Widget · Voice]
-    CH --> GATE{Quota + Safety<br/>gate}
-    GATE -- blocked --> DROP[Reject + audit]
-    GATE -- pass --> RAG[(RAG<br/>pgvector 1536-dim)]
-    RAG --> LOOP[Gemini tool-loop]
-    LOOP <--> MCP[/MCP · Odoo · custom tools/]
-    LOOP --> STREAM((Socket.IO<br/>token stream))
-    STREAM --> U
-    LOOP --> Q[[BullMQ · 4 queues<br/>11 workers]]
-    Q --> CAMP[Campaign engine<br/>anti-ban · Journey DAG · A/B]
-```
-
-```
-◆ Turborepo monorepo — 5 packages (API · dashboard · admin · widget · shared)
-◆ Omnichannel — 13 self-registering providers · Meta Embedded Signup · per-org AES-GCM tokens
-◆ Campaign engine — anti-ban gate · Journey DAG automation · A/B testing · per-org DKIM
-◆ Enterprise monitoring — Dynatrace triage + Splunk SOC command center (SPL queries)
-◆ Scale — ~227 REST endpoints · ~29 Prisma models · 11 workers · EC2 + Nginx + PM2
-```
-
-</details>
-
-<sub>`TypeScript` `Express` `Prisma` `PostgreSQL + pgvector` `Redis` `BullMQ` `React` `Socket.IO` `LangChain` `Gemini` `ElevenLabs`</sub>
-
-<br/>
-
-### `🟣` **Mawid AI** &nbsp;<sub>(موعد)</sub>&nbsp; <img src="https://img.shields.io/badge/LIVE-PRODUCTION-EC4899?style=flat-square&labelColor=0f0c29" />
-
-B2B **WhatsApp appointment-booking SaaS** for Gulf businesses (clinics, salons, gyms) — tenants connect their number and an AI agent handles inquiries, booking, rescheduling and cancellations in Arabic and English.
-
-<details>
-<summary><b>&nbsp;⟩ &nbsp;Open the architecture</b></summary>
-
-<br/>
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#1B1338','primaryTextColor':'#E9D5FF','primaryBorderColor':'#8B5CF6','lineColor':'#22D3EE','secondaryColor':'#2A1B4D','tertiaryColor':'#0F0C29','fontFamily':'monospace'}}}%%
-flowchart TD
-    WA[Meta webhook] --> HMAC{HMAC verify}
-    HMAC --> DEB[Debounce +<br/>idempotency key]
-    DEB --> AG[Gemini agent<br/>8 tools · integrity guard]
-    AG --> SAN[Tool-output sanitizer]
-    SAN --> LOCK[[pg_advisory_xact_lock<br/>slot locking]]
-    LOCK --> BOOK[(Booking · RRULE<br/>recurrence engine)]
-    BOOK --> PAY[Stripe deposits]
-    BOOK --> CRON[Reminder cron]
-    CRON --> WA
-```
-
-```
-◆ Strict layered architecture — kernel → domain → infrastructure → application
-◆ Concurrency — advisory-lock slot reservation kills double-booking races
-◆ Onboarding — 7-step wizard · 22 industry presets · full dark mode
-◆ Ops — Docker + Caddy on EC2 · dynamic pricing · bilingual AR/EN agent
-```
-
-</details>
-
-<sub>`Next.js 16` `React 19` `Drizzle ORM` `PostgreSQL + pgvector` `Vercel AI SDK v6` `Tailwind v4` `shadcn/ui` `WhatsApp Cloud API` `Stripe`</sub>
-
-<br/>
-
-### `🟣` **Safa Agent** &nbsp;<sub>(mythos)</sub>&nbsp; <img src="https://img.shields.io/badge/LIVE-safaict.com-8B5CF6?style=flat-square&labelColor=0f0c29" />&nbsp;<sub>— largest in the portfolio</sub>
-
-**Self-improving AI agent platform** — a productized fork of Nous Research's Hermes Agent, extended with a full cloud SaaS layer.
-
-<details>
-<summary><b>&nbsp;⟩ &nbsp;Open the architecture</b></summary>
-
-<br/>
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#1B1338','primaryTextColor':'#E9D5FF','primaryBorderColor':'#EC4899','lineColor':'#8B5CF6','secondaryColor':'#2A1B4D','tertiaryColor':'#0F0C29','fontFamily':'monospace'}}}%%
-flowchart LR
-    subgraph SURF[Surfaces]
-        CLI[Rich CLI] --- TUI[Ink/React TUI] --- WEB[Web dashboard<br/>PTY · xterm.js]
-    end
-    SURF --> CORE{{Agent core}}
-    CORE --> SK[185+ skills<br/>114 bundled · 71 optional]
-    SK -.->|autonomous<br/>create & improve| SK
-    CORE --> MEM[(Memory · FTS5 recall<br/>nudge every 10 turns)]
-    MEM --> CUR[Background curator]
-    CUR --> MEM
-    CORE --> EXEC[7 execution backends<br/>local · Docker · SSH · Modal · Daytona]
-    CORE --> ADPT[~24 platform adapters<br/>Telegram · Discord · Slack · Signal]
-    CORE --> CLOUD[Safa Cloud<br/>OpenAI-compatible proxy · credits · kill-switch]
-```
-
-```
-◆ Learning loop — memory/skill nudges every 10 turns · background curator · FTS5 recall
-◆ Hardened — PathGuard + Docker egress allowlist · Go WebView2 installer
-◆ Quality gate — 976-file hermetic pytest suite
-◆ Billing — Stripe · quota/kill-switch · device-link auth
-```
-
-</details>
-
-<sub>`Python ≥3.11` `FastAPI` `React` `TypeScript` `SQLite` `PostgreSQL (Neon/Supabase)` `Docker` `Go`</sub>
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-<!-- ═══════════════════════════ TRAJECTORY ═══════════════════════════ -->
-
-<div align="center">
-
-## `🧭` &nbsp;**TRAJECTORY ・ 軌跡**
-
-</div>
-
-```mermaid
-%%{init: {'theme':'base','gitGraph':{'showBranches':true,'mainBranchName':'shadow'},'themeVariables':{'git0':'#8B5CF6','git1':'#EC4899','git2':'#22D3EE','git3':'#F59E0B','gitBranchLabel0':'#E9D5FF','gitBranchLabel1':'#E9D5FF','gitBranchLabel2':'#E9D5FF','gitBranchLabel3':'#0F0C29','commitLabelColor':'#E9D5FF','commitLabelBackground':'#1B1338','fontFamily':'monospace'}}}%%
-gitGraph
-    commit id: "learn in silence"
-    branch full-stack
-    commit id: "APIs · Postgres · queues"
-    commit id: "React · Flutter · Next"
-    checkout shadow
-    merge full-stack
-    branch ai-agents
-    commit id: "RAG + tool-loops"
-    commit id: "Botify Arabia LIVE"
-    commit id: "Mawid AI LIVE"
-    checkout shadow
-    merge ai-agents
-    branch platform
-    commit id: "Safa Agent LIVE"
-    commit id: "self-improving loop"
-    checkout shadow
-    merge platform
-    commit id: "next: Gulf scale"
-```
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-<!-- ═══════════════════════════ THE CODE ═══════════════════════════ -->
-
-<div align="center">
-
-## `🎭` &nbsp;**THE CODE OF THE SHADOW GENIUS**
-
-</div>
-
-```python
-class HiddenGenius:
-    """
-    The strongest player is the one who hides their strength.
-    Reveal only what the situation demands — no more, no less.
-    """
-
-    def __init__(self):
-        self.intelligence   = float('inf')
-        self.visible_effort = 0.15   # show just enough to blend in
-        self.real_output    = 1.00   # deliver beyond expectations
-        self.principles     = [
-            "observe_before_acting",
-            "master_every_tool_quietly",
-            "never_waste_a_move",
-            "let_the_work_speak",
-        ]
-
-    def solve(self, problem):
-        # Others see the solution. They never see the thinking.
-        while problem.exists():
-            self.analyze(problem)
-            self.plan_three_moves_ahead()
-            self.execute(precision=True, noise=False)
-        return "Done. Moving to the next one."
-
-    def __repr__(self):
-        return "A developer you'll only notice once it's too late."
-```
-
-<div align="center">
-
-<sub>the same idea, with the noise factored out:</sub>
-
-</div>
-
-$$
-\textbf{Impact} \;=\; \sum_{i=1}^{n} \Big( \text{Depth}_i \times \text{Ownership}_i \Big) \;-\; \lambda \cdot \text{Noise}, \qquad \lambda \to \infty
-$$
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-<!-- ═══════════════════════════ BATTLE RECORD ═══════════════════════════ -->
-
-<div align="center">
-
-## `📊` &nbsp;**BATTLE RECORD ・ 戦績**
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=FlamuxDev&show_icons=true&count_private=true&hide_border=true&title_color=B794F6&icon_color=EC4899&text_color=ffffff&bg_color=0f0c29" height="170" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=FlamuxDev&hide_border=true&background=0f0c29&stroke=B794F6&ring=B794F6&fire=EC4899&currStreakLabel=B794F6&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=B794F6" height="170" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FlamuxDev&layout=compact&hide_border=true&title_color=B794F6&text_color=ffffff&bg_color=0f0c29&langs_count=10" height="165" />
-<img src="https://github-profile-trophy.vercel.app/?username=FlamuxDev&theme=nord&no-frame=true&no-bg=true&column=4&row=2&margin-w=8&margin-h=8" height="165" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=FlamuxDev&bg_color=0f0c29&color=B794F6&line=EC4899&point=ffffff&area=true&hide_border=true" width="96%" />
-
-</div>
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-<!-- ═══════════════════════ CURRENT OPERATIONS ═══════════════════════ -->
-
-<div align="center">
-
-## `🎯` &nbsp;**CURRENT OPERATIONS ・ 現在の作戦**
-
-</div>
-
-| ` ` | Active mission | Progress |
+| # | Stage | What it actually means in my systems |
 |:--|:--|:--|
-| `🔴` | Scaling **Botify Arabia** for the Saudi / Gulf B2B market | `███████████████░░░░░` `74%` |
-| `🔴` | Self-improving multi-agent systems — **Safa / mythos** | `██████████████████░░` `88%` |
-| `🟣` | Per-user sandboxed compute — Firecracker · gVisor · E2B | `████████░░░░░░░░░░░░` `41%` |
-| `🟣` | Edge inference & on-device LLMs | `█████░░░░░░░░░░░░░░░` `26%` |
-| `🟢` | The art of saying nothing while knowing everything | `████████████████████` `∞` |
+| `01` | **Ingress** | Meta webhook → HMAC signature verification → debounce + idempotency key, so a redelivered message never double-books a slot |
+| `02` | **Guard** | Prompt-injection corpus run as a quality gate · per-agent origin allowlists (a state-changing request with no `Origin` is rejected) · tool output wrapped in trust guards before it re-enters the prompt |
+| `03` | **Retrieve** | pgvector HNSW cosine **in parallel with** FTS (SQLite FTS5 trigram over normalised Arabic), fused by **RRF** · embeddings refreshed differentially by content hash · two-layer + semantic cache |
+| `04` | **Reason** | Bounded Gemini tool-loop, three-layer context manager, per-run token budgets, and a no-LLM fallback path that still answers when the model is down |
+| `05` | **Act** | Per-agent **MCP** servers (cached clients, encrypted headers) · domain tools (availability, booking, catalog, pricing) · connectors (Odoo, Dynatrace, Splunk) · automatic provider failover |
+| `06` | **Verify** | A server-side **integrity guard**: the agent cannot *claim* an action it did not actually perform. Structural validators reject malformed sections and re-prompt correctively |
+| `07` | **Stream** | Socket.IO fan-out over a Redis adapter (cluster-safe) and Postgres `NOTIFY` for live agent progress in the UI |
 
-```yaml
-philosophy:
-  quote:    "I don't compete with others. I compete with who I was yesterday."
-  standard: "اسطوري — or it doesn't ship"
-  goal:     "Build things that outlive the noise"
+> [!NOTE]
+> Most of the repositories behind this page are **private client/product code**. What is public here is the architecture, the measurements, and the engineering practice — not the source.
+
+<img src="assets/rule.svg" width="100%" alt="" />
+
+## &nbsp;`02`&nbsp;&nbsp;SYSTEMS
+
+| System | What it is | Surface | State |
+|:--|:--|:--|:--|
+| **Botify + Campify** | Multi-tenant AI agent & customer-engagement platform: RAG over private knowledge, MCP tool-calling, voice, live human handoff, campaign automation | 7-package monorepo · widget · 2 dashboards | `PRODUCTION` |
+| **Mawid AI** <sub>موعد</sub> | WhatsApp booking agent for Gulf clinics, salons and workshops — books, reschedules, cancels and reminds, in Arabic and English | `gomawid.com` | `PRODUCTION` |
+| **Sham v2** <sub>شمسي</sub> | Arabic educational discovery agent — schools, teachers, events across Jordan, over chat, WhatsApp and voice | API · WhatsApp · voice · MCP | `PRODUCTION` |
+| **Luma Architect** | An orchestration engine where **11 specialised agents** turn a plain-language idea into a full engineering blueprint — with a debate round and an arbitration agent | Worker + web | `IN BUILD` |
+| **Tamm** <sub>تمّ</sub> | WhatsApp commerce for GCC merchants — an Arabic sales agent on top of a multi-tenant commerce engine | NestJS API · Next.js web | `IN BUILD` |
+| **Ray** | Cross-platform desktop agent — multimodal chat, workspace files, ~85 skills, MCP connectors, cron routines, artifacts canvas | Tauri desktop (Linux/Windows) | `PRE-MVP` |
+
+<br/>
+
+<details>
+<summary><b>&nbsp;⟩&nbsp; Botify — the hot path, and what makes it survive contact with tenants</b></summary>
+
+<br/>
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#1A0F09','primaryTextColor':'#FDBA74','primaryBorderColor':'#EA580C','lineColor':'#9A3412','secondaryColor':'#231309','tertiaryColor':'#0A0A0B','fontFamily':'ui-monospace, monospace','fontSize':'13px'}}}%%
+flowchart LR
+    W[Embeddable widget<br/>Shadow DOM · no framework] --> API[Express API<br/>REST + Socket.IO]
+    D[Tenant dashboard] --> API
+    API --> ORG{Org scope + RBAC<br/>suspension kill-switch}
+    ORG --> RAG[(pgvector HNSW<br/>cosine · strict grounding)]
+    ORG --> TL[5 tool loaders<br/>in parallel with retrieval]
+    RAG --> LOOP[Gemini tool-loop<br/>injection-guarded · bounded]
+    TL --> LOOP
+    LOOP --> FLT[Stream marker filter]
+    FLT --> IO((Socket.IO fan-out<br/>Redis adapter))
+    LOOP --> Q[[BullMQ workers<br/>ingestion · analysis · outreach]]
+    Q --> QA[Post-conversation<br/>AI quality analysis]
 ```
 
-> [!TIP]
-> Best way to reach me: a concrete problem, in one paragraph. <kbd>E</kbd> for email below — response probability: calculated.
+- **Multi-tenancy is the schema, not a filter** — `Organization` is the tenant root, every query is org-scoped, RBAC with string permissions, a separate platform-admin identity, and an org suspension kill-switch.
+- **Knowledge ingestion** — PDF/DOCX/HTML/crawler → chunking → batched Gemini embeddings → HNSW index, with strict-grounding mode and knowledge-conflict detection.
+- **Security posture** — AES-256-GCM for tenant secrets at rest, HMAC-signed private media URLs, Redis-backed rate limits, sanitised widget markdown.
+- **Deploys that can be undone** — a migration guard that refuses diffs containing `DROP`, a pre-deploy `pg_dump` snapshot, migration + client regeneration on the server, then a `/api/ready` health gate with a documented rollback.
 
-<img src="assets/divider.svg" width="100%" alt="" />
+</details>
 
-<!-- ═══════════════════ WORDS FROM THE MASTERMINDS ═══════════════════ -->
+<details>
+<summary><b>&nbsp;⟩&nbsp; Mawid AI — an agent that is allowed to touch the calendar</b></summary>
 
-<div align="center">
+<br/>
 
-## `🌙` &nbsp;**WORDS FROM THE MASTERMINDS**
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#1A0F09','primaryTextColor':'#FDBA74','primaryBorderColor':'#EA580C','lineColor':'#9A3412','secondaryColor':'#231309','tertiaryColor':'#0A0A0B','fontFamily':'ui-monospace, monospace','fontSize':'13px'}}}%%
+flowchart TD
+    M[Meta webhook] --> SIG{App-secret<br/>signature check}
+    SIG --> RES[Resolve org by number<br/>store · transcribe voice]
+    RES --> CTX[Load org context<br/>services · staff · hours · policies · KB]
+    CTX --> AG[Gemini 2.5 Flash agent<br/>Vercel AI SDK · tools]
+    AG --> TOOLS[search availability · book<br/>reschedule · cancel · quote]
+    TOOLS --> LOCK[[Slot locking<br/>concurrency-safe booking]]
+    LOCK --> DB[(Postgres + pgvector<br/>Drizzle · 36 tables)]
+    AG --> GRD{Integrity guard<br/>claim ≟ actual effect}
+    GRD -- mismatch --> FIX[Correct the reply]
+    GRD -- ok --> OUT[Reply on WhatsApp]
+```
+
+- **The dependency graph is enforced by tooling.** Four workspaces — `core → backend → ai → web`, one direction only. A `backend → ai` import is an **ESLint error**, not a code-review argument. That is what let the frontend, backend and AI tracks move without breaking each other.
+- **`core` is a pure leaf** — date/timezone/scheduling/rules logic with no I/O, which is why the booking rules are actually testable.
+- **The box never builds.** CI builds the Docker image and pushes it to GHCR; the server only pulls and restarts. Rollback is re-deploying a known-good SHA.
+- Baseline that must stay green before merge: `tsc` clean · **68/68 tests** · production build OK.
+
+</details>
+
+<details>
+<summary><b>&nbsp;⟩&nbsp; Sham v2 — the rewrite, and the numbers that justified it</b></summary>
+
+<br/>
+
+Design principle: **model-driven understanding, data-derived vocabulary, truth from SQL.**
+
+| | Previous system | **Sham v2** |
+|:--|:--|:--|
+| Domain vocabulary | ~400 lines of hard-coded synonyms, types and neighbourhoods | **Live gazetteer** derived from the database at boot and after each sync — a new word in the data works with no code change |
+| Query understanding | Rules + regex first, LLM for the rare case | **Structured-output Gemini first** (temp 0, few-shot, enums), version-keyed two-layer cache, **plus a non-LLM fallback that keeps working when the model fails** |
+| Search | KNN + FTS + RRF | Same proven core, but understanding and embedding run **in parallel**, with background completion on timeout |
+| Stability | A tool error killed the reply | Per-tool and per-call timeouts, exponential backoff, fallback model, circuit breaker, single-flight |
+
+**Measured against the previous live system, not against itself:** recall@10 `0.77 → 0.861` · warm p50 `~60ms → ~26ms` · aggregate accuracy held at `100%` · 98 tests · 95-query golden eval suite.
+
+The rewrite kept the published API contract **byte-for-byte** — web, mobile and the voice agent kept working with zero changes.
+
+</details>
+
+<details>
+<summary><b>&nbsp;⟩&nbsp; Luma Architect — eleven agents, a debate round, and an arbiter</b></summary>
+
+<br/>
+
+An idea in plain language goes in; a complete engineering document comes out — requirements, architecture, database, API, interfaces, security, testing, deployment. Eleven specialised agents, each named after a computing pioneer, each with one strict role.
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#1A0F09','primaryTextColor':'#FDBA74','primaryBorderColor':'#EA580C','lineColor':'#9A3412','secondaryColor':'#231309','tertiaryColor':'#0A0A0B','fontFamily':'ui-monospace, monospace','fontSize':'13px'}}}%%
+flowchart TD
+    T1[Turing · analysis and plan] --> G[Grove · business]
+    G --> L[Lovelace · requirements]
+    L --> B[Brooks · architecture]
+    L --> C[Codd · database]
+    L --> F[Fielding · API]
+    L --> N[Norman · interfaces]
+    B --> D[Diffie · security]
+    C --> D
+    F --> D
+    N --> D
+    D --> H[Hopper · testing]
+    H --> V[Torvalds · operations]
+    V --> M{Debate<br/>cross-review}
+    M --> T2[Turing · arbitration]
+    T2 --> K[Knuth · final assembly]
+```
+
+- **The four-way fan-out** (architecture / database / API / interfaces) runs **in parallel** after requirements — the single biggest latency win in the pipeline.
+- **Jobs are claimed atomically** with `FOR UPDATE SKIP LOCKED`, so two workers can never run the same blueprint.
+- **Every state change is broadcast** — a row in the message log plus Postgres `NOTIFY`, so the user watches the council work live instead of staring at a spinner.
+- **Validators before persistence** — per-agent structural validators, a Mermaid gate, a consistency checker, and a corrective re-prompt that feeds the rejection back to the agent as guidance.
+- **Cost is a design constraint** — development runs against a mock provider returning fixtures (zero cost, offline); real full-pipeline runs are scheduled and budgeted.
+
+I also lead the AI team building it: four pairs with explicit ownership, a two-review merge gate, and a stated definition of done.
+
+</details>
+
+<details>
+<summary><b>&nbsp;⟩&nbsp; Tamm & Ray — commerce agent, and an agent on the desktop</b></summary>
+
+<br/>
+
+**Tamm (تمّ)** — an Arabic sales agent over WhatsApp on top of a multi-tenant commerce engine: browsing, cart, delivery, ordering and *"where is my order?"*. NestJS + Prisma, **92 REST endpoints** generated into an OpenAPI document and a ready Postman collection. The e2e suite boots its own embedded Postgres and runs every case against real HTTP and a real database — it is the merge gate. The agent is exercised through a **scripted fake LLM** so the suite stays deterministic, offline and free; a separate live flag verifies the real Gemini wiring end to end (prompt → function calling → tools → a placed order).
+
+**Ray** — a desktop agent for Linux and Windows: streamed multimodal chat with vision, voice in and out, a workspace file tree with a live FS watcher, an artifacts canvas that live-renders HTML/SVG/Mermaid in a sandbox, ~85 bundled skills, 7 MCP connectors, cron-scheduled routines, a Spotlight-style global launcher, and full Arabic + RTL. Tauri 2 + React 19 over a Python agent core; Windows MSI/NSIS/portable builds packaged in CI.
+
+</details>
+
+<img src="assets/rule.svg" width="100%" alt="" />
+
+## &nbsp;`03`&nbsp;&nbsp;HOW I ENGINEER
 
 <table>
 <tr>
-<td align="center" width="50%">
+<td width="50%" valign="top">
 
-> *"I don't really care about winning or losing. As long as I don't lose sight of myself, that's enough."*
+**`Determinism around a non-deterministic core`**
 
-**— Kiyotaka Ayanokoji**<br/>
-<sub>Classroom of the Elite</sub>
+The agent is tested through a scripted fake LLM, so the suite is offline, free and repeatable. A separate opt-in flag exercises the real provider wiring. AI code that can only be tested by talking to a model is AI code that is never tested.
+
+**`Eval before opinion`**
+
+Golden-query suites with `recall@10` and latency tracked against the **previous live baseline** — a rewrite ships when the numbers say so, not when it feels faster.
+
+**`Mock-first, cost-aware`**
+
+Default provider is a mock returning fixtures: zero-cost, offline, no key in anyone's `.env`. Real runs are scheduled, budgeted and logged.
 
 </td>
-<td align="center" width="50%">
+<td width="50%" valign="top">
 
-> *"Hard work betrays none, but dreams betray many."*
+**`Architecture enforced by tooling`**
 
-**— Hachiman Hikigaya**<br/>
-<sub>Oregairu</sub>
+Package boundaries live in `tsconfig` paths and ESLint `no-restricted-imports`. A backward import fails the build instead of starting a debate.
+
+**`Deploys that can be undone`**
+
+Migration guard against destructive diffs · pre-deploy database snapshot · health gate before traffic · images built in CI and *pulled* by the server · rollback is one known-good SHA.
+
+**`Failure is an input, not an incident`**
+
+Per-call timeouts, exponential backoff, circuit breakers, single-flight, provider failover, and a degraded path that still answers when the model is unavailable.
 
 </td>
 </tr>
 </table>
 
-</div>
+<img src="assets/rule.svg" width="100%" alt="" />
 
-<img src="assets/divider.svg" width="100%" alt="" />
+## &nbsp;`04`&nbsp;&nbsp;STACK
 
-<!-- ═══════════════════════════ SNAKE ═══════════════════════════ -->
+**`AI & AGENTS`**
 
-<div align="center">
+<img src="https://img.shields.io/badge/Gemini_2.5-0A0A0B?style=flat-square&logo=googlegemini&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/Vercel_AI_SDK-0A0A0B?style=flat-square&logo=vercel&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/LangChain-0A0A0B?style=flat-square&logo=langchain&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/MCP-0A0A0B?style=flat-square&logo=anthropic&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/pgvector_·_HNSW-0A0A0B?style=flat-square&logo=postgresql&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/RRF_hybrid_retrieval-0A0A0B?style=flat-square&logo=databricks&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/ElevenLabs_voice-0A0A0B?style=flat-square&logo=elevenlabs&logoColor=F97316&labelColor=0A0A0B" />
 
-## `🐍` &nbsp;**CONTRIBUTION HUNT**
+**`BACKEND & DATA`**
 
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake" />
+<img src="https://img.shields.io/badge/TypeScript-0A0A0B?style=flat-square&logo=typescript&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/Node_≥20-0A0A0B?style=flat-square&logo=nodedotjs&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/NestJS-0A0A0B?style=flat-square&logo=nestjs&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/Express-0A0A0B?style=flat-square&logo=express&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/Python_≥3.11-0A0A0B?style=flat-square&logo=python&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/PostgreSQL-0A0A0B?style=flat-square&logo=postgresql&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/Prisma_·_Drizzle-0A0A0B?style=flat-square&logo=prisma&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/Redis_·_BullMQ-0A0A0B?style=flat-square&logo=redis&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/SQLite_·_FTS5-0A0A0B?style=flat-square&logo=sqlite&logoColor=F97316&labelColor=0A0A0B" />
 
-</div>
+**`FRONTEND & DELIVERY`**
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="https://img.shields.io/badge/Next.js_16-0A0A0B?style=flat-square&logo=nextdotjs&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/React_19-0A0A0B?style=flat-square&logo=react&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/Tailwind_v4-0A0A0B?style=flat-square&logo=tailwindcss&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/Tauri_2-0A0A0B?style=flat-square&logo=tauri&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/Turborepo_·_pnpm-0A0A0B?style=flat-square&logo=turborepo&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/Docker-0A0A0B?style=flat-square&logo=docker&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/GitHub_Actions_·_GHCR-0A0A0B?style=flat-square&logo=githubactions&logoColor=F97316&labelColor=0A0A0B" />
+<img src="https://img.shields.io/badge/AWS_EC2_·_Caddy_·_PM2-0A0A0B?style=flat-square&logo=amazonwebservices&logoColor=F97316&labelColor=0A0A0B" />
 
-<!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
+<img src="assets/rule.svg" width="100%" alt="" />
 
-<div align="center">
+## &nbsp;`05`&nbsp;&nbsp;CURRENTLY
 
-## `📡` &nbsp;**ESTABLISH CONTACT ・ 連絡**
+```yaml
+shipping:
+  - Mawid AI      → onboarding Gulf tenants onto WhatsApp Cloud API
+  - Botify        → tool-calling depth: more connectors, tighter grounding
+  - Luma Architect→ first full eleven-agent run against real providers
 
-<i>Message received. Response probability: calculated.</i>
+studying:
+  - agent evaluation — scoring tool-use traces, not just final answers
+  - per-user sandboxed compute (Firecracker · gVisor · E2B)
+  - on-device and edge inference for latency-bound Arabic voice
+
+principle: "an agent you cannot measure is a demo, not a product"
+```
+
+<img src="assets/rule.svg" width="100%" alt="" />
+
+## &nbsp;`06`&nbsp;&nbsp;CONTACT
+
+<a href="mailto:abdfaraj.dev@gmail.com"><img src="https://img.shields.io/badge/Email-0A0A0B?style=for-the-badge&logo=gmail&logoColor=F97316&labelColor=0A0A0B" height="34" /></a>
+<a href="https://linkedin.com/in/abd-ulrahman-faraj-io"><img src="https://img.shields.io/badge/LinkedIn-0A0A0B?style=for-the-badge&logo=linkedin&logoColor=F97316&labelColor=0A0A0B" height="34" /></a>
+<a href="https://gomawid.com"><img src="https://img.shields.io/badge/gomawid.com-0A0A0B?style=for-the-badge&logo=googlechrome&logoColor=F97316&labelColor=0A0A0B" height="34" /></a>
+<a href="https://shamsieh.ai"><img src="https://img.shields.io/badge/shamsieh.ai-0A0A0B?style=for-the-badge&logo=vercel&logoColor=F97316&labelColor=0A0A0B" height="34" /></a>
+
+> [!TIP]
+> The fastest way to a useful conversation: send me the problem in one paragraph — the constraint, the traffic, and what "correct" means for you.
 
 <br/>
 
-<a href="https://github.com/FlamuxDev"><img src="https://img.shields.io/badge/GitHub-0f0c29?style=for-the-badge&logo=github&logoColor=B794F6" height="40" /></a>
-<a href="https://linkedin.com/in/abd-ulrahman-faraj-io"><img src="https://img.shields.io/badge/LinkedIn-0f0c29?style=for-the-badge&logo=linkedin&logoColor=B794F6" height="40" /></a>
-<a href="mailto:abdfaraj.dev@gmail.com"><img src="https://img.shields.io/badge/Email-0f0c29?style=for-the-badge&logo=gmail&logoColor=B794F6" height="40" /></a>
-<a href="https://shamsieh.ai"><img src="https://img.shields.io/badge/Portfolio-0f0c29?style=for-the-badge&logo=vercel&logoColor=B794F6" height="40" /></a>
+<div align="center">
 
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=FlamuxDev&style=for-the-badge&color=8B5CF6&label=OBSERVERS" />
-<img src="https://img.shields.io/github/followers/FlamuxDev?style=for-the-badge&color=8B5CF6&labelColor=0f0c29&label=DISCIPLES" />
-
-<br/><br/>
-
-### *"The true elite don't need to prove anything. Their work does it for them."*
-
-<br/>
-
-<img src="assets/footer.svg" width="100%" alt="صناعة الأنظمة — building systems that outlive the noise" />
+<img src="https://github-readme-stats.vercel.app/api?username=FlamuxDev&show_icons=true&count_private=true&hide_border=true&hide_title=true&title_color=F97316&icon_color=EA580C&text_color=A8A29E&bg_color=0A0A0B" height="150" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FlamuxDev&layout=compact&hide_border=true&hide_title=true&title_color=F97316&text_color=A8A29E&bg_color=0A0A0B&langs_count=8" height="150" />
 
 </div>
 
-[^1]: Every animated banner, divider, boot terminal, skill radar and wave footer on this page is a hand-authored SVG living in [`/assets`](assets) — pure SMIL, no scripts, no third-party render service. Steal the technique, not the file.
+<br/>
+
+<img src="assets/footer.svg" width="100%" alt="أنظمة وكلاء تعمل في الإنتاج — agent systems that run in production" />
