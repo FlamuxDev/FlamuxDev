@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" font-family="'Helvetica Neue','Segoe UI',Arial,sans-serif">
+  <!-- ROUTE SET — one request through the agent line -->
+  <defs>
+    <linearGradient id="bands2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0D0F12"/>
+      <stop offset="1" stop-color="#14171C"/>
+    </linearGradient>
+    <radialGradient id="lampG2">
+      <stop offset="0" stop-color="#5BC98A"/>
+      <stop offset="1" stop-color="#5BC98A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="280" fill="url(#bands2)"/>
+
+  <text x="50" y="48" font-size="15" font-weight="700" letter-spacing="4.5" fill="#ECE8DC">ROUTE SET &#183; ONE REQUEST</text>
+  <rect x="50" y="57" width="96" height="3" fill="#B08D57"/>
+  <text x="850" y="47" text-anchor="end" font-size="14" fill="#B08D57" font-family="'Segoe UI',Tahoma,Arial,sans-serif">&#1605;&#1587;&#1575;&#1585; &#1575;&#1604;&#1591;&#1604;&#1576;</text>
+
+  <!-- main line -->
+  <line x1="55" y1="158" x2="845" y2="158" stroke="#33383F" stroke-width="5"/>
+  <line x1="55" y1="158" x2="845" y2="158" stroke="#3FA66A" stroke-width="2.5" stroke-dasharray="22 500">
+    <animate attributeName="stroke-dashoffset" from="522" to="0" dur="8s" repeatCount="indefinite"/>
+  </line>
+
+  <circle cy="158" r="4.5" fill="#BFE8CF">
+    <animate attributeName="cx" values="55;845" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- stations: ingress guard retrieve reason act verify stream -->
+  <g>
+    <g><circle cx="55" cy="158" r="9" fill="#14171B" stroke="#E9E4D8" stroke-width="2"/><text x="55" y="192" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D8D3C6">INGRESS</text><text x="55" y="208" text-anchor="middle" font-size="10" letter-spacing="1" fill="#77746A">HMAC GATE</text></g>
+    <g><circle cx="187" cy="158" r="9" fill="#14171B" stroke="#E9E4D8" stroke-width="2"/><text x="187" y="126" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D8D3C6">GUARD</text><text x="187" y="110" text-anchor="middle" font-size="10" letter-spacing="1" fill="#77746A">INJECTION ALLOWLISTS</text></g>
+    <g><circle cx="318" cy="158" r="9" fill="#14171B" stroke="#E9E4D8" stroke-width="2"/><text x="318" y="192" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D8D3C6">RETRIEVE</text><text x="318" y="208" text-anchor="middle" font-size="10" letter-spacing="1" fill="#77746A">PGVECTOR &#183; RRF</text></g>
+    <g><circle cx="450" cy="158" r="9" fill="#14171B" stroke="#E9E4D8" stroke-width="2"/><text x="450" y="126" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D8D3C6">REASON</text><text x="450" y="110" text-anchor="middle" font-size="10" letter-spacing="1" fill="#77746A">BOUNDED TOOL LOOP</text></g>
+    <g><circle cx="582" cy="158" r="9" fill="#14171B" stroke="#E9E4D8" stroke-width="2"/><text x="582" y="192" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D8D3C6">ACT</text><text x="582" y="208" text-anchor="middle" font-size="10" letter-spacing="1" fill="#77746A">MCP TOOLS</text></g>
+    <g><circle cx="713" cy="158" r="9" fill="#14171B" stroke="#E9E4D8" stroke-width="2"/><text x="713" y="126" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D8D3C6">VERIFY</text><text x="713" y="110" text-anchor="middle" font-size="10" letter-spacing="1" fill="#77746A">CLAIM = EFFECT</text></g>
+    <g><circle cx="845" cy="158" r="9" fill="#14171B" stroke="#E9E4D8" stroke-width="2"/><text x="845" y="192" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D8D3C6">STREAM</text><text x="845" y="208" text-anchor="middle" font-size="10" letter-spacing="1" fill="#77746A">SOCKET.IO LIVE</text></g>
+  </g>
+
+  <!-- home signals at each end -->
+  <g>
+    <line x1="55" y1="120" x2="55" y2="182" stroke="#3A3F47" stroke-width="2.5"/>
+    <circle cx="55" cy="134" r="4.5" fill="#14171B" stroke="#3A3F47"/>
+    <circle cx="55" cy="150" r="4.5" fill="#3FA66A"/>
+    <circle cx="55" cy="150" r="8" fill="url(#lampG2)"><animate attributeName="opacity" values=".6;.25;.6" dur="2.2s" repeatCount="indefinite"/></circle>
+  </g>
+  <g>
+    <line x1="845" y1="120" x2="845" y2="182" stroke="#3A3F47" stroke-width="2.5"/>
+    <circle cx="845" cy="134" r="4.5" fill="#3FA66A"/>
+    <circle cx="845" cy="150" r="4.5" fill="#14171B" stroke="#3A3F47"/>
+  </g>
+
+  <!-- legend -->
+  <g font-size="10.5" letter-spacing="1.5">
+    <circle cx="700" cy="248" r="4" fill="#3FA66A"/>
+    <text x="711" y="252" fill="#8A8578">SET ROUTE</text>
+    <circle cx="795" cy="248" r="4" fill="#E8A13C"/>
+    <text x="806" y="252" fill="#8A8578">HOLD</text>
+  </g>
+</svg>

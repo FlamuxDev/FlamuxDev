@@ -1,247 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-label="Agent systems that run in production">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 175" font-family="'Helvetica Neue','Segoe UI',Arial,sans-serif">
+  <!-- CLOSING — the lines run into the night -->
   <defs>
-    <linearGradient id="fBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#09090A"/>
-      <stop offset="100%" stop-color="#0D0806"/>
+    <linearGradient id="bands4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#12151A"/>
+      <stop offset="1" stop-color="#0C0E11"/>
     </linearGradient>
-    <linearGradient id="fBar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FB923C"/>
-      <stop offset="100%" stop-color="#7C2D12"/>
-    </linearGradient>
-    <linearGradient id="fLine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#F97316" stop-opacity="0"/>
-      <stop offset="15%" stop-color="#EA580C" stop-opacity=".8"/>
-      <stop offset="85%" stop-color="#EA580C" stop-opacity=".8"/>
-      <stop offset="100%" stop-color="#F97316" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient id="fSun" cx="50%" cy="100%">
-      <stop offset="0%" stop-color="#EA580C" stop-opacity=".30"/>
-      <stop offset="100%" stop-color="#EA580C" stop-opacity="0"/>
+    <radialGradient id="lampG4">
+      <stop offset="0" stop-color="#5BC98A"/>
+      <stop offset="1" stop-color="#5BC98A" stop-opacity="0"/>
     </radialGradient>
-    <clipPath id="fClip"><rect width="1200" height="180" rx="14"/></clipPath>
-    <style>
-      .m { font-family: ui-monospace, "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace; }
-      .ar { font-family: "Noto Naskh Arabic", "Segoe UI", Tahoma, system-ui, sans-serif; font-size: 27px; font-weight: 700; }
-    </style>
   </defs>
+  <rect width="900" height="175" fill="url(#bands4)"/>
 
-  <g clip-path="url(#fClip)">
-    <rect width="1200" height="180" fill="url(#fBg)"/>
-    <ellipse cx="600" cy="140" rx="520" ry="150" fill="url(#fSun)"/>
-
-    <text class="ar" x="600" y="62" text-anchor="middle" fill="#FAFAF9" direction="rtl">أنظمة وكلاء تعمل في الإنتاج</text>
-    <text class="m" x="600" y="88" text-anchor="middle" font-size="10" letter-spacing="4.5" fill="#A8A29E">AGENT SYSTEMS THAT RUN IN PRODUCTION</text>
-
-    <rect x="46" y="134.0" width="3" height="6.0" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="6.0;36.0;6.0" dur="2.40s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="134.0;104.0;134.0" dur="2.40s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="68" y="115.3" width="3" height="24.7" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="24.7;19.6;24.7" dur="2.71s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="115.3;120.4;115.3" dur="2.71s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="90" y="104.4" width="3" height="35.6" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="35.6;23.7;35.6" dur="3.02s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="104.4;116.3;104.4" dur="3.02s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="112" y="105.6" width="3" height="34.4" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="34.4;35.6;34.4" dur="3.33s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="105.6;104.4;105.6" dur="3.33s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="134" y="117.3" width="3" height="22.7" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="22.7;15.2;22.7" dur="3.64s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="117.3;124.8;117.3" dur="3.64s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="156" y="124.9" width="3" height="15.1" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="15.1;27.3;15.1" dur="3.95s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="124.9;112.7;124.9" dur="3.95s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="178" y="109.3" width="3" height="30.7" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="30.7;34.5;30.7" dur="4.26s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="109.3;105.5;109.3" dur="4.26s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="200" y="104.5" width="3" height="35.5" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="35.5;10.6;35.5" dur="2.40s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="104.5;129.4;104.5" dur="2.40s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="222" y="111.6" width="3" height="28.4" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="28.4;30.3;28.4" dur="2.71s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="111.6;109.7;111.6" dur="2.71s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="244" y="125.6" width="3" height="14.4" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="14.4;32.7;14.4" dur="3.02s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="125.6;107.3;125.6" dur="3.02s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="266" y="116.9" width="3" height="23.1" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="23.1;6.1;23.1" dur="3.33s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="116.9;133.9;116.9" dur="3.33s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="288" y="106.3" width="3" height="33.7" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="33.7;32.8;33.7" dur="3.64s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="106.3;107.2;106.3" dur="3.64s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="310" y="107.8" width="3" height="32.2" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="32.2;30.2;32.2" dur="3.95s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="107.8;109.8;107.8" dur="3.95s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="332" y="119.7" width="3" height="20.3" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="20.3;10.9;20.3" dur="4.26s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="119.7;129.1;119.7" dur="4.26s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="354" y="116.5" width="3" height="23.5" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="23.5;34.6;23.5" dur="2.40s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="116.5;105.4;116.5" dur="2.40s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="376" y="111.1" width="3" height="28.9" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="28.9;27.1;28.9" dur="2.71s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="111.1;112.9;111.1" dur="2.71s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="398" y="106.5" width="3" height="33.5" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="33.5;15.5;33.5" dur="3.02s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="106.5;124.5;106.5" dur="3.02s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="420" y="113.9" width="3" height="26.1" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="26.1;35.7;26.1" dur="3.33s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="113.9;104.3;113.9" dur="3.33s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="442" y="127.1" width="3" height="12.9" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="12.9;23.4;12.9" dur="3.64s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="127.1;116.6;127.1" dur="3.64s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="464" y="108.6" width="3" height="31.4" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="31.4;19.8;31.4" dur="3.95s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="108.6;120.2;108.6" dur="3.95s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="486" y="108.2" width="3" height="31.8" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="31.8;36.0;31.8" dur="4.26s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="108.2;104.0;108.2" dur="4.26s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="508" y="110.0" width="3" height="30.0" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="30.0;19.4;30.0" dur="2.40s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="110.0;120.6;110.0" dur="2.40s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="530" y="122.1" width="3" height="17.9" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="17.9;23.9;17.9" dur="2.71s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="122.1;116.1;122.1" dur="2.71s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="552" y="118.1" width="3" height="21.9" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="21.9;35.6;21.9" dur="3.02s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="118.1;104.4;118.1" dur="3.02s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="574" y="102.9" width="3" height="37.1" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="37.1;15.0;37.1" dur="3.33s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="102.9;125.0;102.9" dur="3.33s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="596" y="108.6" width="3" height="31.4" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="31.4;27.4;31.4" dur="3.64s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="108.6;112.6;108.6" dur="3.64s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="618" y="116.3" width="3" height="23.7" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="23.7;34.4;23.7" dur="3.95s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="116.3;105.6;116.3" dur="3.95s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="640" y="128.7" width="3" height="11.3" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="11.3;10.3;11.3" dur="4.26s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="128.7;129.7;128.7" dur="4.26s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="662" y="110.3" width="3" height="29.7" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="29.7;30.5;29.7" dur="2.40s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="110.3;109.5;110.3" dur="2.40s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="684" y="100.2" width="3" height="39.8" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="39.8;32.6;39.8" dur="2.71s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="100.2;107.4;100.2" dur="2.71s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="706" y="112.2" width="3" height="27.8" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="27.8;6.4;27.8" dur="3.02s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="112.2;133.6;112.2" dur="3.02s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="728" y="124.5" width="3" height="15.5" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="15.5;32.9;15.5" dur="3.33s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="124.5;107.1;124.5" dur="3.33s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="750" y="119.7" width="3" height="20.3" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="20.3;30.0;20.3" dur="3.64s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="119.7;110.0;119.7" dur="3.64s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="772" y="104.7" width="3" height="35.3" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="35.3;11.1;35.3" dur="3.95s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="104.7;128.9;104.7" dur="3.95s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="794" y="100.7" width="3" height="39.3" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="39.3;34.7;39.3" dur="4.26s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="100.7;105.3;100.7" dur="4.26s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="816" y="118.6" width="3" height="21.4" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="21.4;26.9;21.4" dur="2.40s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="118.6;113.1;118.6" dur="2.40s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="838" y="130.3" width="3" height="9.7" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="9.7;15.7;9.7" dur="2.71s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="130.3;124.3;130.3" dur="2.71s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="860" y="112.0" width="3" height="28.0" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="28.0;35.7;28.0" dur="3.02s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="112.0;104.3;112.0" dur="3.02s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="882" y="102.1" width="3" height="37.9" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="37.9;23.2;37.9" dur="3.33s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="102.1;116.8;102.1" dur="3.33s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="904" y="104.5" width="3" height="35.5" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="35.5;20.1;35.5" dur="3.64s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="104.5;119.9;104.5" dur="3.64s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="926" y="127.0" width="3" height="13.0" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="13.0;36.0;13.0" dur="3.95s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="127.0;104.0;127.0" dur="3.95s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="948" y="121.3" width="3" height="18.7" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="18.7;19.1;18.7" dur="4.26s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="121.3;120.9;121.3" dur="4.26s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="970" y="106.5" width="3" height="33.5" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="33.5;24.1;33.5" dur="2.40s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="106.5;115.9;106.5" dur="2.40s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="992" y="102.8" width="3" height="37.2" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="37.2;35.5;37.2" dur="2.71s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="102.8;104.5;102.8" dur="2.71s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="1014" y="111.0" width="3" height="29.0" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="29.0;14.7;29.0" dur="3.02s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="111.0;125.3;111.0" dur="3.02s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="1036" y="131.8" width="3" height="8.2" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="8.2;27.6;8.2" dur="3.33s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="131.8;112.4;131.8" dur="3.33s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="1058" y="113.6" width="3" height="26.4" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="26.4;34.3;26.4" dur="3.64s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="113.6;105.7;113.6" dur="3.64s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="1080" y="104.1" width="3" height="35.9" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="35.9;10.1;35.9" dur="3.95s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="104.1;129.9;104.1" dur="3.95s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="1102" y="106.7" width="3" height="33.3" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="33.3;30.6;33.3" dur="4.26s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="106.7;109.4;106.7" dur="4.26s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="1124" y="119.4" width="3" height="20.6" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="20.6;32.4;20.6" dur="2.40s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="119.4;107.6;119.4" dur="2.40s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="1146" y="122.9" width="3" height="17.1" rx="1.5" fill="url(#fBar)" opacity=".85">
-      <animate attributeName="height" values="17.1;6.7;17.1" dur="2.71s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="122.9;133.3;122.9" dur="2.71s" repeatCount="indefinite"/>
-    </rect>
-
-    <rect x="0" y="139.5" width="1200" height="1.2" fill="url(#fLine)"/>
-
-    <text class="m" x="46" y="164" font-size="8.5" letter-spacing="2.4" fill="#57534E">FLAMUXDEV</text>
-    <text class="m" x="600" y="164" text-anchor="middle" font-size="8.5" letter-spacing="2.4" fill="#57534E">AMMAN → THE GULF</text>
-    <text class="m" x="1154" y="164" text-anchor="end" font-size="8.5" letter-spacing="2.4" fill="#57534E">OPEN TO HARD PROBLEMS</text>
+  <!-- converging rails to a vanishing point -->
+  <g stroke="#33383F">
+    <line x1="245" y1="175" x2="444" y2="88" stroke-width="5"/>
+    <line x1="655" y1="175" x2="456" y2="88" stroke-width="5"/>
   </g>
-  <rect x=".5" y=".5" width="1199" height="179" rx="14" fill="none" stroke="#1C1917"/>
+  <g stroke="#23272D" stroke-width="2">
+    <line x1="295" y1="154" x2="605" y2="154"/><line x1="325" y1="142" x2="575" y2="142"/><line x1="353" y1="130" x2="547" y2="130"/><line x1="378" y1="119" x2="522" y2="119"/><line x1="400" y1="110" x2="500" y2="110"/>
+  </g>
+  <circle cx="450" cy="84" r="12" fill="url(#lampG4)" opacity=".5"><animate attributeName="opacity" values=".55;.15;.55" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="450" cy="84" r="3" fill="#5BC98A"/>
+
+  <text x="450" y="40" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="5" fill="#ECE8DC">THE LINES NEVER SLEEP</text>
+  <text x="450" y="63" text-anchor="middle" font-size="13" fill="#B08D57" font-family="'Segoe UI',Tahoma,Arial,sans-serif">&#1575;&#1604;&#1582;&#1591;&#1608;&#1591; &#1604;&#1575; &#1578;&#1606;&#1575;&#1605;</text>
 </svg>
