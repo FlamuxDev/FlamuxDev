@@ -1,5 +1,7 @@
 # Abdulrahman Faraj · عبد الرحمن فرج
 
+[![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&width=600&lines=AI+agent+engineer;Measured%2C+grounded%2C+reversible)](https://github.com/FlamuxDev)
+
 **AI agent engineer.** I take agents from demo to production — measured, grounded, and reversible.
 
 > *An agent you cannot measure is a demo, not a product.*
@@ -25,12 +27,19 @@ studying:  agent evaluation over tool-use traces · sandboxed compute · edge Ar
 
 ### Stack
 
+<img src="https://skillicons.dev/icons?i=ts,nestjs,express,py,postgres,prisma,redis,nextjs,react,tailwind,tauri,docker,aws,githubactions" alt="Stack" />
+
 `Gemini 2.5` · `Vercel AI SDK` · `LangChain` · `MCP` · `pgvector + HNSW` · `RRF hybrid retrieval` · `ElevenLabs`
-`TypeScript` · `NestJS` · `Python` · `PostgreSQL` · `Prisma / Drizzle` · `Redis + BullMQ`
-`Next.js` · `React` · `Tailwind` · `Tauri` · `Docker` · `GitHub Actions` · `AWS EC2 + Caddy + PM2`
 
 ---
 
 📫 **Fastest way to a useful conversation:** [abdfaraj.dev@gmail.com](mailto:abdfaraj.dev@gmail.com) — one paragraph: the constraint, the traffic, and what "correct" means for you.
 
 🔗 [LinkedIn](https://linkedin.com/in/abd-ulrahman-faraj-io) · [gomawid.com](https://gomawid.com) · [shamsieh.ai](https://shamsieh.ai)
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=FlamuxDev&show_icons=true&count_private=true&hide_border=true&title_color=ECE8DC&icon_color=B08D57&text_color=A8A29E&bg_color=00000000" height="150" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FlamuxDev&layout=compact&hide_border=true&title_color=ECE8DC&text_color=A8A29E&bg_color=00000000&langs_count=8" height="150" />
+
+</div>
