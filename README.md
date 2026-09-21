@@ -1,340 +1,346 @@
 <div align="center">
 
-# ABDULRAHMAN FARAJ
-
-### AI Agent Systems Engineer
-
-**I build AI agents that survive contact with production.**
-
-*measured · grounded · reversible*
+<a href="https://github.com/FlamuxDev">
+  <img src="assets/hero.svg" width="100%" alt="Abdulrahman Faraj — AI Agent Systems Engineer" />
+</a>
 
 <br />
 
-[![GitHub](https://img.shields.io/badge/GitHub-FlamuxDev-111111?style=flat-square\&logo=github\&logoColor=white)](https://github.com/FlamuxDev)
-[![Email](https://img.shields.io/badge/Email-abdfaraj.dev%40gmail.com-111111?style=flat-square\&logo=gmail\&logoColor=white)](mailto:abdfaraj.dev@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdulrahman_Faraj-111111?style=flat-square\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/abd-ulrahman-faraj-io)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&color=FF6B35&center=true&vCenter=true&width=820&lines=AI+Agent+Systems+Engineer;Building+systems+around+the+model;Reasoning+%E2%86%92+Tools+%E2%86%92+Execution+%E2%86%92+Verification;Measured.+Grounded.+Reversible." />
+
+<br /><br />
+
+<a href="https://github.com/FlamuxDev">
+  <img src="https://img.shields.io/github/followers/FlamuxDev?style=for-the-badge&logo=github&label=FOLLOWERS&labelColor=111111&color=FF6B35" />
+</a>
+<a href="https://github.com/FlamuxDev?tab=repositories">
+  <img src="https://img.shields.io/github/stars/FlamuxDev?style=for-the-badge&logo=github&label=STARS&labelColor=111111&color=FF6B35" />
+</a>
+<a href="mailto:abdfaraj.dev@gmail.com">
+  <img src="https://img.shields.io/badge/EMAIL-CONNECT-111111?style=for-the-badge&logo=gmail&logoColor=white&color=FF6B35" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### I DON'T BUILD CHATBOTS.
+
+## I BUILD THE SYSTEM AROUND THE MODEL.
+
+*Clinics booked over WhatsApp · merchants selling in Arabic · answers grounded in private knowledge — live traffic, not demos.*
 
 </div>
 
 <br />
 
-> **An agent you cannot measure is a demo, not a product.**
+<table align="center">
+<tr>
+<td align="center" width="25%">
+
+### THINK
+
+Reasoning
+Planning
+Context
+Memory
+
+</td>
+
+<td align="center" width="25%">
+
+### ACT
+
+Tools
+APIs
+Agents
+Automation
+
+</td>
+
+<td align="center" width="25%">
+
+### VERIFY
+
+Evaluation
+Traces
+Policies
+Integrity
+
+</td>
+
+<td align="center" width="25%">
+
+### LEARN
+
+Feedback
+History
+Signals
+Adaptation
+
+</td>
+</tr>
+</table>
 
 ---
 
-## CURRENTLY
+# `01` · ENGINEERING
+
+I work on the infrastructure that turns probabilistic models into **reliable software systems**.
+
+My interest is not simply getting a model to produce a good answer.
+
+It is making the entire system around that model:
 
 ```text
-FOCUS
-────────────────────────────────────────────────────────────
-Botify       → onboarding Gulf tenants onto WhatsApp Cloud API
-             → deepening production tool-calling
-
-Luma         → building Luma Architect
-             → running the first full eleven-agent council
-               against real providers
-
-RESEARCH     → agent evaluation over tool-use traces
-             → sandboxed compute
-             → edge Arabic voice
+observable
+debuggable
+measurable
+recoverable
+reversible
+composable
 ```
 
 ---
 
-## WHAT I BUILD
-
-I work on the layer between **LLMs and real systems**.
-
-Not just prompts.
-Not just chat interfaces.
-
-I design agents with:
+# `02` · THE WAY I BUILD
 
 ```text
-memory
-    ↓
-planning
-    ↓
-tool use
-    ↓
-state
-    ↓
-execution
-    ↓
-verification
-    ↓
-learning
+                           ┌──────────────────────┐
+                           │        USER          │
+                           └──────────┬───────────┘
+                                      │
+                                      ▼
+                           ┌──────────────────────┐
+                           │       CONTEXT        │
+                           │ memory · state · RAG │
+                           └──────────┬───────────┘
+                                      │
+                                      ▼
+                    ┌────────────────────────────────┐
+                    │             MODEL              │
+                    │                                │
+                    │ reasoning · planning · choice │
+                    └───────────────┬────────────────┘
+                                    │
+                    ┌───────────────┼────────────────┐
+                    │               │                │
+                    ▼               ▼                ▼
+                 MEMORY           TOOLS            POLICY
+                    │               │                │
+                    └───────────────┼────────────────┘
+                                    ▼
+                           ┌──────────────────────┐
+                           │      EXECUTION       │
+                           │ jobs · APIs · state  │
+                           └──────────┬───────────┘
+                                      │
+                                      ▼
+                           ┌──────────────────────┐
+                           │    VERIFICATION      │
+                           │ effects ≠ claims     │
+                           └──────────┬───────────┘
+                                      │
+                                      ▼
+                           ┌──────────────────────┐
+                           │       LEARNING       │
+                           │ traces · feedback    │
+                           └──────────┬───────────┘
+                                      │
+                                      └───────────────► NEXT RUN
 ```
 
-The goal is simple:
-
-**an agent that can act reliably when the environment is not simple.**
+> **The model is a component. The architecture is the product.**
 
 ---
 
-## ENGINEERING DOCTRINE
+# `03` · ENGINEERING PRINCIPLES
 
-### 01 · Determinism around a non-deterministic core
+<table>
+<tr>
+<td width="50%" valign="top">
 
-LLMs are probabilistic.
+### DETERMINISM AROUND UNCERTAINTY
 
-Everything around them should not be.
+The model can be probabilistic.
 
-Test infrastructure uses scripted fake models for
-offline, free and repeatable verification, with explicit
-opt-in paths for exercising real provider integrations.
+The infrastructure around it should not be.
 
----
+Tests, state transitions, contracts, retries and failure handling should remain predictable.
 
-### 02 · Eval before opinion
+</td>
+
+<td width="50%" valign="top">
+
+### EVAL BEFORE OPINION
 
 I prefer traces and measurements over intuition.
 
-Golden-query suites, retrieval metrics, latency baselines,
-tool-use evaluation and regression testing decide whether
-a change ships.
-
-**A rewrite ships when the numbers say it should.**
-
----
-
-### 03 · Architecture enforced by tooling
-
-Architectural rules should not live in documentation.
-
-Package boundaries, TypeScript paths, lint rules and build
-constraints make invalid dependencies fail automatically.
-
-**The compiler should win the argument.**
-
----
-
-### 04 · Failure is an input
-
-Production agents will encounter:
-
 ```text
-timeouts
-rate limits
-provider failures
-partial tool execution
-stale state
-network errors
-unexpected model output
+golden cases
+      ↓
+tool-use traces
+      ↓
+metrics
+      ↓
+regression
+      ↓
+ship / reject
 ```
 
-Systems therefore need:
+</td>
+</tr>
 
-**timeouts · backoff · circuit breakers · failover · degraded paths**
+<tr>
+<td width="50%" valign="top">
 
-The goal is not zero failure.
+### FAILURE IS A STATE
 
-The goal is **controlled failure**.
+Timeouts, provider failures, partial execution and malformed model output are not edge cases.
 
----
+They are part of the architecture.
 
-### 05 · Reversible by default
+</td>
 
-Deployments should be easy to undo.
+<td width="50%" valign="top">
+
+### EVERYTHING SHOULD BE REVERSIBLE
 
 ```text
-migration guard
-      ↓
-pre-deploy snapshot
-      ↓
+change
+  ↓
+snapshot
+  ↓
 health gate
-      ↓
-known-good SHA
-      ↓
+  ↓
+deploy
+  ↓
+verify
+  ↓
 rollback
 ```
 
-A production change without a recovery path is incomplete.
+A system without a recovery path is unfinished.
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 06 · No unbacked claims
-
-An agent saying that something happened does not make it true.
-
-Server-side integrity checks compare:
+# `04` · WHAT I WORK ON
 
 ```text
-claimed action
-       ↕
-actual system effect
-```
-
-before the result is allowed to become part of the user-facing response.
-
----
-
-## SYSTEMS I'M BUILDING
-
-### BOTIFY
-
-**AI personal assistant agents for production environments.**
-
-Multi-agent runtime infrastructure covering:
-
-```text
-agent runtime
-memory
-learning
-tool calling
-decisioning
-approvals
-automations
-connectors
-background execution
-evaluation
-```
-
-The goal is not another chatbot.
-
-It is an **agent that can actually operate.**
-
-→ https://botifyarabia.ai/
-
----
-
-### LUMA ARCHITECT
-
-**Conversation → architecture → implementation**
-
-An AI software-architecture system built around
-multi-agent collaboration.
-
-The experiment:
-
-```text
-user intent
-     ↓
-specialized agents
-     ↓
-architecture / research / implementation reasoning
-     ↓
-agent council
-     ↓
-validated engineering output
-```
-
-Currently being tested against real model providers.
-
----
-
-## STACK
-
-### LANGUAGES & RUNTIME
-
-![TypeScript](https://img.shields.io/badge/TypeScript-111111?style=flat-square\&logo=typescript\&logoColor=3178C6)
-![Python](https://img.shields.io/badge/Python-111111?style=flat-square\&logo=python\&logoColor=3776AB)
-![Node.js](https://img.shields.io/badge/Node.js-111111?style=flat-square\&logo=node.js\&logoColor=5FA04E)
-
-### BACKEND & DATA
-
-![Postgres](https://img.shields.io/badge/PostgreSQL-111111?style=flat-square\&logo=postgresql\&logoColor=4169E1)
-![Redis](https://img.shields.io/badge/Redis-111111?style=flat-square\&logo=redis\&logoColor=DC382D)
-![Prisma](https://img.shields.io/badge/Prisma-111111?style=flat-square\&logo=prisma\&logoColor=2D3748)
-
-### AI SYSTEMS
-
-```text
-Gemini 2.5
-Vercel AI SDK
-LangChain
-MCP
-pgvector
-HNSW
-RRF hybrid retrieval
-ElevenLabs
-```
-
-### INFRASTRUCTURE
-
-```text
-Docker
-AWS
-GitHub Actions
-Express
-NestJS
-Next.js
-React
-Tailwind
-Tauri
+┌──────────────────────────────────────────────────────────┐
+│                    AI AGENT SYSTEMS                      │
+├──────────────────────────────────────────────────────────┤
+│                                                          │
+│  Agent Runtime                                           │
+│  ├── state machines                                      │
+│  ├── execution loops                                     │
+│  ├── decision systems                                    │
+│  └── long-running tasks                                  │
+│                                                          │
+│  Context Engineering                                     │
+│  ├── memory                                              │
+│  ├── retrieval                                           │
+│  ├── context assembly                                    │
+│  └── user state                                          │
+│                                                          │
+│  Tool Infrastructure                                     │
+│  ├── tool calling                                        │
+│  ├── connector lifecycle                                 │
+│  ├── permissions                                         │
+│  └── external systems                                    │
+│                                                          │
+│  Reliability                                             │
+│  ├── evaluation                                          │
+│  ├── observability                                       │
+│  ├── retries / backoff                                   │
+│  ├── failover                                            │
+│  └── integrity checks                                    │
+│                                                          │
+│  Multi-Agent Systems                                     │
+│  ├── specialization                                      │
+│  ├── orchestration                                       │
+│  ├── delegation                                          │
+│  └── agent-to-agent workflows                            │
+│                                                          │
+└──────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## HOW I THINK ABOUT AGENTS
+# `05` · MY DEVELOPMENT LOOP
 
 ```text
-              ┌───────────────┐
-              │     MODEL     │
-              └───────┬───────┘
-                      │
-              ┌───────▼───────┐
-              │    DECISION   │
-              └───────┬───────┘
-                      │
-          ┌───────────┼───────────┐
-          │           │           │
-      memory        tools       policy
-          │           │           │
-          └───────────┼───────────┘
-                      │
-              ┌───────▼───────┐
-              │   EXECUTION   │
-              └───────┬───────┘
-                      │
-              ┌───────▼───────┐
-              │ VERIFICATION  │
-              └───────┬───────┘
-                      │
-              ┌───────▼───────┐
-              │    LEARNING   │
-              └───────────────┘
+          ┌─────────────┐
+          │   RESEARCH  │
+          └──────┬──────┘
+                 │
+                 ▼
+          ┌─────────────┐
+          │   SPECIFY   │
+          └──────┬──────┘
+                 │
+                 ▼
+          ┌─────────────┐
+          │   DESIGN    │
+          └──────┬──────┘
+                 │
+                 ▼
+          ┌─────────────┐
+          │   BUILD     │
+          └──────┬──────┘
+                 │
+                 ▼
+          ┌─────────────┐
+          │   TEST      │
+          └──────┬──────┘
+                 │
+                 ▼
+          ┌─────────────┐
+          │   EVALUATE  │
+          └──────┬──────┘
+                 │
+                 ▼
+          ┌─────────────┐
+          │   SHIP      │
+          └──────┬──────┘
+                 │
+                 ▼
+          ┌─────────────┐
+          │   LEARN     │
+          └──────┬──────┘
+                 │
+                 └───────────────► RESEARCH
 ```
 
-The model is one component.
-
-**The system around the model is the product.**
+### `BUILD → MEASURE → VERIFY → SHIP → LEARN`
 
 ---
 
-## SELECTED AREAS
+# `06` · NOW
 
-`AI Agents` · `Agent Runtime` · `Tool Calling` · `Memory`
-`Evaluation` · `RAG` · `Multi-Agent Systems`
-`Automation` · `Production AI` · `Arabic AI`
-
----
-
-## CONNECT
-
-**Fastest way to have a useful conversation:**
-
-Send one paragraph covering:
-
-`the constraint · the traffic · what "correct" means`
-
-**Email**
-[abdfaraj.dev@gmail.com](mailto:abdfaraj.dev@gmail.com)
-
-**Web**
-https://gomawid.com/
-https://shamsieh.ai/
-
-**LinkedIn**
-https://linkedin.com/in/abd-ulrahman-faraj-io
+```yaml
+lines:     onboarding Gulf tenants onto WhatsApp Cloud API · deepening tool-calling in Botify
+building:  Luma Architect — first full eleven-agent council run against real providers
+studying:  agent evaluation over tool-use traces · sandboxed compute · edge Arabic voice
+```
 
 ---
+
+# `07` · STACK
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=FlamuxDev&show_icons=true&count_private=true&hide_border=true&title_color=EAEAEA&icon_color=FF5722&text_color=9CA3AF&bg_color=00000000" height="160" />
+<img src="https://skillicons.dev/icons?i=ts,python,nodejs,nestjs,express,postgres,redis,prisma,nextjs,react,tailwind,docker,aws,githubactions&perline=7" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FlamuxDev&layout=compact&hide_border=true&title_color=EAEAEA&text_color=9CA3AF&bg_color=00000000&langs_count=8" height="160" />
+<br /><br />
+
+<img src="https://skillicons.dev/icons?i=git,github,linux,bash,vscode&perline=5" />
 
 </div>
 
@@ -342,6 +348,101 @@ https://linkedin.com/in/abd-ulrahman-faraj-io
 
 <div align="center">
 
-`BUILD → MEASURE → VERIFY → SHIP → LEARN`
+`TypeScript` · `Python` · `PostgreSQL` · `Redis` · `Prisma`
+`Next.js` · `React` · `Docker` · `AWS` · `GitHub Actions`
+`LLMs` · `RAG` · `MCP` · `Tool Calling` · `Multi-Agent Systems`
+
+</div>
+
+---
+
+# `08` · AI SYSTEM MAP
+
+```mermaid
+flowchart LR
+    U[USER] --> C[CONTEXT]
+    C --> M[MODEL]
+
+    M --> D{DECISION}
+
+    D -->|message| R[RESPONSE]
+    D -->|tool| T[TOOL]
+    D -->|delegate| A[AGENT]
+    D -->|approval| P[POLICY]
+    D -->|complete| X[VERIFIED RESULT]
+
+    T --> E[EXECUTION]
+    A --> E
+    P --> E
+
+    E --> V[VERIFICATION]
+    V --> L[LEARNING]
+    L --> S[STATE]
+    S --> C
+```
+
+---
+
+# `09` · SIGNALS
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=FlamuxDev&show_icons=true&count_private=true&hide_border=true&rank_icon=github&title_color=EAEAEA&icon_color=FF6B35&text_color=9CA3AF&bg_color=00000000" height="170" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FlamuxDev&layout=compact&hide_border=true&title_color=EAEAEA&text_color=9CA3AF&bg_color=00000000&langs_count=8" height="170" />
+
+</div>
+
+<br />
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=FlamuxDev&theme=transparent&hide_border=true&ring=FF6B35&fire=FF6B35&currStreakLabel=EAEAEA&sideLabels=9CA3AF&dates=6B7280" width="75%" />
+
+</div>
+
+---
+
+# `10` · CONTRIBUTIONS
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=FlamuxDev&bg_color=00000000&color=9CA3AF&line=FF6B35&point=EAEAEA&area=true&hide_border=true" width="100%" />
+
+<br />
+
+<img src="https://raw.githubusercontent.com/FlamuxDev/FlamuxDev/output/github-contribution-grid-snake-dark.svg" width="100%" />
+
+</div>
+
+---
+
+# `11` · PRINCIPLE
+
+<div align="center">
+
+## “An agent you cannot measure is a demo, not a product.”
+
+<br />
+
+`OBSERVE`  `→`  `MEASURE`  `→`  `VERIFY`  `→`  `IMPROVE`
+
+<br /><br />
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3500&pause=1200&color=9CA3AF&center=true&vCenter=true&width=720&lines=Build+systems.+Not+just+prompts.;Make+failure+observable.;Make+change+reversible.;Make+AI+operational." />
+
+</div>
+
+---
+
+<div align="center">
+
+### ABDULRAHMAN FARAJ · عبد الرحمن فرج · 2026
+
+*الأنظمة الحيّة لا تنام — the lines never sleep.*
+
+[GitHub](https://github.com/FlamuxDev) ·
+[LinkedIn](https://linkedin.com/in/abd-ulrahman-faraj-io) ·
+[Website](https://gomawid.com)
 
 </div>

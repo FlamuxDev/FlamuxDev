@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Abdulrahman Faraj — AI Agent Systems Engineer">
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14100C"/>
+      <stop offset="0.55" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#131009"/>
+    </linearGradient>
+    <radialGradient id="hglow" cx="0.78" cy="0.3" r="0.55">
+      <stop offset="0" stop-color="#FF6B35" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FF6B35" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF6B35" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FF6B35"/>
+      <stop offset="1" stop-color="#FF6B35" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="hgrid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#EAEAEA" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="hdot" x="-90%" y="-90%" width="280%" height="280%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="340" rx="14" fill="url(#hbg)"/>
+  <rect x="0" y="0" width="1200" height="340" rx="14" fill="url(#hgrid)"/>
+  <rect x="0" y="0" width="1200" height="340" rx="14" fill="url(#hglow)"/>
+  <rect x="1" y="1" width="1198" height="338" rx="13" fill="none" stroke="#FF6B35" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- travelling signal pulses -->
+  <g fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M-20 268 C 280 268, 340 190, 620 190 S 960 268, 1220 268" stroke="#FF6B35" stroke-opacity="0.28" stroke-dasharray="14 120">
+      <animate attributeName="stroke-dashoffset" from="0" to="-134" dur="2.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-20 268 C 280 268, 340 190, 620 190 S 960 268, 1220 268" stroke="#EAEAEA" stroke-opacity="0.35" stroke-dasharray="8 200">
+      <animate attributeName="stroke-dashoffset" from="0" to="-208" dur="4.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <path d="M-20 268 C 280 268, 340 190, 620 190 S 960 268, 1220 268" fill="none" stroke="#EAEAEA" stroke-opacity="0.12" stroke-width="1.5"/>
+
+  <!-- waypoints -->
+  <g filter="url(#hdot)">
+    <circle cx="620" cy="190" r="7" fill="#FF6B35"/>
+    <circle cx="180" cy="262" r="5" fill="#35C26E"/>
+    <circle cx="1020" cy="262" r="5" fill="#EAEAEA"/>
+  </g>
+
+  <!-- name -->
+  <text x="600" y="118" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="62" font-weight="bold" letter-spacing="10" fill="#EAEAEA">ABDULRAHMAN FARAJ</text>
+  <text x="600" y="158" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="26" letter-spacing="3" fill="#FF6B35">عبد الرحمن فرج</text>
+  <rect x="370" y="178" width="460" height="1.5" fill="url(#hline)"/>
+  <text x="600" y="210" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" letter-spacing="7" fill="#9CA3AF">AI AGENT SYSTEMS ENGINEER</text>
+
+  <!-- status row -->
+  <g font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="3">
+    <circle cx="398" cy="252" r="5" fill="#35C26E" filter="url(#hdot)"/>
+    <text x="414" y="257" fill="#9CA3AF">IN SERVICE</text>
+    <circle cx="560" cy="252" r="5" fill="#D29922" filter="url(#hdot)"/>
+    <text x="576" y="257" fill="#9CA3AF">BUILDING</text>
+    <circle cx="706" cy="252" r="5" fill="#EAEAEA" filter="url(#hdot)"/>
+    <text x="722" y="257" fill="#9CA3AF">ON TRIAL</text>
+  </g>
+</svg>
