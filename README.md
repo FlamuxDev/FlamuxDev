@@ -53,12 +53,6 @@ I turn ideas into products that ship. I work across every layer: **architecture,
 </tr>
 </table>
 
-<img src="assets/title-oss.svg" alt="04 — Open source" width="100%">
-
-<a href="https://github.com/FlamuxDev/project-cortex"><img src="https://img.shields.io/github/stars/FlamuxDev/project-cortex?style=for-the-badge&color=C8FF00&labelColor=0F0D0C&logo=github" alt="Stars"></a> <img src="https://img.shields.io/github/v/release/FlamuxDev/project-cortex?style=for-the-badge&color=F7F1E8&labelColor=0F0D0C" alt="Release"> <img src="https://img.shields.io/badge/MCP-ready-C8FF00?style=for-the-badge&labelColor=0F0D0C" alt="MCP ready">
-
-**[Project Cortex](https://github.com/FlamuxDev/project-cortex)** — local-first code intelligence and durable engineering memory for AI coding agents (Claude Code, Codex, Cursor, any MCP client). No cloud, no telemetry.
-
 <img src="assets/title-contact.svg" alt="05 — Contact" width="100%">
 
 Have an idea, a product to grow, or want AI doing the work for you? **[farajai.com](https://farajai.com)** · **[hello@farajai.com](mailto:hello@farajai.com)**

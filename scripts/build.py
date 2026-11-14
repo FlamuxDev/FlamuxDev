@@ -85,7 +85,6 @@ out = root / 'assets'
 (out / 'stats.svg').write_text(stats())
 (out / 'stack.svg').write_text(marquee())
 for k, a in {'about': ('01', 'ABOUT', 'More than a moment.'), 'build': ('02', 'CAPABILITIES', 'What I build.'),
-             'work': ('03', 'SELECTED WORK', 'Live products I built.'), 'oss': ('04', 'OPEN SOURCE', 'Open source.'),
-             'contact': ('05', 'CONTACT', "Let's build something.")}.items():
+             'work': ('03', 'SELECTED WORK', 'Live products I built.'), 'contact': ('04', 'CONTACT', "Let's build something.")}.items():
     (out / f'title-{k}.svg').write_text(title(*a))
 print('ok')

@@ -6,6 +6,6 @@ text{font-family:G,'Space Grotesk',system-ui,sans-serif;fill:#F7F1E8} .u{font-fa
 .t{font-size:13px;letter-spacing:.35em;fill:rgba(247,241,232,.55)} .t tspan{fill:#C8FF00}
 .h{opacity:0;animation:up .8s cubic-bezier(.2,.8,.2,1) .1s forwards} @keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 .l{stroke:#C8FF00;stroke-width:2;stroke-dasharray:1200;stroke-dashoffset:1200;animation:draw 1.6s cubic-bezier(.2,.8,.2,1) .2s forwards} @keyframes draw{to{stroke-dashoffset:0}}</style><rect width="1280" height="120" rx="16" fill="#0F0D0C"/>
-<text class="t" x="40" y="44">05 — <tspan>CONTACT</tspan></text>
+<text class="t" x="40" y="44">04 — <tspan>CONTACT</tspan></text>
 <text class="u h" x="38" y="92" font-size="34">Let's build something.</text>
 <line class="l" x1="40" y1="112" x2="1240" y2="112"/></svg>
